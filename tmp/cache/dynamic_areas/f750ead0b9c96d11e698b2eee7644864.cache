@@ -1,0 +1,6 @@
+a:10:{s:2:"id";s:2:"21";s:6:"userID";s:1:"0";s:4:"name";s:64:"system_emails_email_msg_fcc7wd69v5psqe1yr0ijgecg30k876avt48lnm9a";s:4:"mode";s:7:"wysiwyg";s:7:"content";s:255:"Dear [[upline_first_name]] [[upline_last_name]],
+				[[enrollee_first_name]] [[enrollee_last_name]] has joined your team [[level_to_enrollee]] levels below you.
+
+				lead id: [[enrollee_lead_id]]
+				email: [[enrollee_email]]
+				phone: [[enrollee_phone]]";s:8:"settings";s:0:"";s:4:"lang";s:2:"en";s:11:"save_folder";s:0:"";s:10:"created_on";s:19:"2016-10-24 14:10:17";s:8:"saved_on";s:19:"2016-10-24 14:10:17";}

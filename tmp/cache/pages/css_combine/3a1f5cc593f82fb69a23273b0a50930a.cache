@@ -1,0 +1,38 @@
+/****** css combine: 1 total files ******/
+
+/****** css file includes/modules/postal_parrot/postal_parrot.module.css last modified 1360217444 ******/
+#drip_email_results
+{
+	width: 600px;
+	min-height: 400px;
+	padding: 25px;
+	text-align: center;
+}
+#drip_email_results IMG
+{
+	padding: 40px;
+}
+#drip_email_results TABLE
+{
+	width: 600px;
+}
+#drip_email_results TR, #drip_email_results TD, #drip_email_results TH
+{
+	text-align: left;
+}
+#drip_email_results A
+{
+	/*width: 105px !important;*/
+	display: inline;
+	height: 20px !important;
+	font-size: 87.5%;
+	padding: 0px 10px;
+	margin: 0px 0 0 10px;
+	float:left;
+}
+.list_right_column
+{
+	width: 105px !important;
+	text-align: left !important;
+}
+/****** end css file includes/modules/postal_parrot/postal_parrot.module.css ******/

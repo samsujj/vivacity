@@ -1,0 +1,1634 @@
+2016-09-28 12:26:09 - qbbb - receive() POST:mod=sitecom&cmd=first_contact&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&shared_key=GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N-Qs2FjsgJI59tPKIZcjdqJdSlHwAfyhy3ftPGWtxI3Kw&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHPiea5R3XNee0yTYaPOoyCGAtGkXhEI4dtIbq3vikG3A&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-09-28+12%3A26%3A11+CDT&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A0%3A%7B%7D
+2016-09-28 12:26:09 - qbbb - validate_registration_auth_with_regserv(Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N-Qs2FjsgJI59tPKIZcjdqJdSlHwAfyhy3ftPGWtxI3Kw,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369},by_ref)
+2016-09-28 12:26:09 - qbbb - validating...
+2016-09-28 12:26:09 - qbbb - validate_shared_auth_str(Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N-Qs2FjsgJI59tPKIZcjdqJdSlHwAfyhy3ftPGWtxI3Kw,zYd084Bt2TldrtfGuOUhTvBuQLZO6vIV,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-09-28 12:26:09 - qbbb - VALID (Direct request from regserver)
+2016-09-28 12:26:09 - qbbb - Validated! Do sitecom update!
+2016-09-28 12:26:09 - qbbb - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 1
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-09-28 12:26:09
+)
+2016-09-28 12:26:09 - qbbb - perform_request(sitecom,first_contact,arr,arr)
+2016-09-28 12:26:09 - qbbb - DATA:Array
+(
+)
+2016-09-28 12:26:09 - qbbb - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 1
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-09-28 12:26:09
+)
+2016-09-28 12:26:09 - qbbb - USING FILE: /home/aicore/public_html/backbone/includes/plugins/sitecom/sitecom.sitecom.php
+2016-09-28 12:26:09 - qbbb - get_auth_str(zYd084Bt2TldrtfGuOUhTvBuQLZO6vIV,{1062696E-5057-A3EC-34B6-F2538D14124F})
+2016-09-28 12:26:09 - qbbb - First-Contact RESPONSE:Array
+(
+    [guid] => {1062696E-5057-A3EC-34B6-F2538D14124F}
+    [regserv_auth] => bY3S8l2s15iqqTLeRMg1eY5fC-lArMl6N-LbEPzr1GYBUw30jZ0IX9k83SZDjU4WrFiLb7LJPesMUa78iI7riQ
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [site_name] => Vivacity
+    [http_url] => http://saturn.apogeehost.com/~vivacity/
+    [https_url] => https://saturn.apogeehost.com/~vivacity/
+    [host_auth_for_client] => NA_CLIENT_IS_SERVER
+)
+2016-09-28 12:26:09 - h06h - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&shared_key=GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N-Qs2FjsgJI59tPKIZcjdqJdSlHwAfyhy3ftPGWtxI3Kw&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHPiea5R3XNee0yTYaPOoyCGAtGkXhEI4dtIbq3vikG3A&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-09-28+12%3A26%3A11+CDT&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A48%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A2%3A%5C%2234%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A7%3A%5C%22crystal%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%227ig454321b48861124366522df8af079d6edcabbd37641179294749b3c9ee1732e5449%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A7%3A%5C%22Crystal%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A6%3A%5C%22Holder%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22ApogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A24%3A%5C%22crystal%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222014-09-12+11%3A21%3A16%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-09-28+10%3A31%3A45%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A3%3A%5C%22108%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222015-03-17%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A1%3A%5C%224%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%222014-09-11+19%3A09%3A35%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3B%7D
+2016-09-28 12:26:09 - h06h - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHPiea5R3XNee0yTYaPOoyCGAtGkXhEI4dtIbq3vikG3A,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-09-28 12:26:09 - h06h - Validated! Do sitecom update!
+2016-09-28 12:26:09 - h06h - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 2
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-09-28 12:26:09
+)
+2016-09-28 12:26:09 - h06h - perform_request(user_management,autoadd_user,arr,arr)
+2016-09-28 12:26:09 - h06h - DATA:Array
+(
+    [userID] => 34
+    [access_level] => 0
+    [username] => crystal
+    [password] => 7ig454321b48861124366522df8af079d6edcabbd37641179294749b3c9ee1732e5449
+    [first_name] => Crystal
+    [last_name] => Holder
+    [company] => ApogeeINVENT
+    [email] => crystal@apogeeinvent.com
+    [first_login] => 2014-09-12 11:21:16
+    [last_login] => 2016-09-28 10:31:45
+    [login_counter] => 108
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => Website Developer
+    [hashed_pass] => 1
+    [pass_creation_date] => 2015-03-17
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 4
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 2014-09-11 19:09:35
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+)
+2016-09-28 12:26:09 - h06h - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 2
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-09-28 12:26:09
+)
+2016-09-28 12:26:09 - h06h - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-09-28 12:26:09 - h06h - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=nyxmz5RREep3TMKVJBF6Ra1Hp72wf0nnG_HxzZvm90GZaPOD_0Kb7dxWMaCXnSNWaa9riPaulaZN_Z1GwM28jQ
+2016-10-20 09:51:55 - gju9 - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N9Cbvx9f_QEU3oLX8lcMNKgJs0oLAyWEybzPC4JD9qRxg&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aGb6drdmbKk5jDL9r_j1mBaqok6QTrgqfrtrjntrWiXBw&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-10-20+09%3A51%3A52+CDT&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A48%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A1%3A%5C%225%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A4%3A%5C%221024%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A6%3A%5C%22andrew%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22d0y22a0c65aee84ecca9a7b8ee9b544c48078de5df3adf61fb6fbb637b1ec0e487c1dy%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A6%3A%5C%22Andrew%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A8%3A%5C%22Lovelace%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22apogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A23%3A%5C%22andrew%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222011-09-23+13%3A41%3A17%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-10-14+13%3A05%3A25%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A3%3A%5C%22387%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222015-05-05%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3Bs%3A71%3A%5C%22z0zdc1bb78755b3b485fae18e67ec8bf5e44adb359288acfb7424596195474d3d637fj%7C%5C%22%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A2%3A%5C%2212%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3B%7D
+2016-10-20 09:51:55 - gju9 - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aGb6drdmbKk5jDL9r_j1mBaqok6QTrgqfrtrjntrWiXBw,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-10-20 09:51:55 - gju9 - Validated! Do sitecom update!
+2016-10-20 09:51:55 - gju9 - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 3
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-10-20 09:51:55
+)
+2016-10-20 09:51:55 - gju9 - perform_request(user_management,autoadd_user,arr,arr)
+2016-10-20 09:51:55 - gju9 - DATA:Array
+(
+    [userID] => 5
+    [access_level] => 1024
+    [username] => andrew
+    [password] => d0y22a0c65aee84ecca9a7b8ee9b544c48078de5df3adf61fb6fbb637b1ec0e487c1dy
+    [first_name] => Andrew
+    [last_name] => Lovelace
+    [company] => apogeeINVENT
+    [email] => andrew@apogeeinvent.com
+    [first_login] => 2011-09-23 13:41:17
+    [last_login] => 2016-10-14 13:05:25
+    [login_counter] => 387
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => Website Developer
+    [hashed_pass] => 1
+    [pass_creation_date] => 2015-05-05
+    [prev_pass] => z0zdc1bb78755b3b485fae18e67ec8bf5e44adb359288acfb7424596195474d3d637fj|
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 12
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 0000-00-00 00:00:00
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+)
+2016-10-20 09:51:55 - gju9 - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 3
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-10-20 09:51:55
+)
+2016-10-20 09:51:55 - gju9 - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-10-20 09:51:55 - gju9 - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=9sBAGb_iI2V0TTvW_tuDG1WDo5vMouTZVEs6buZd-bbX_Mu5JSWklWKmSJzEcM2R8GQZmDYSr6MbZF0kYzdeig
+2016-11-01 13:46:01 - loil - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N93rDd251ZW6FnhDVhzNbydZMkRExIWbxeShTplyif1eA&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aFmC5Y2gcwJ_FzrS2NAa2t0qloTT9V2JK1YSzkW4jAthg&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-11-01+13%3A46%3A02+CDT&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A2%3A%5C%2234%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A7%3A%5C%22crystal%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%227ig454321b48861124366522df8af079d6edcabbd37641179294749b3c9ee1732e5449%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A7%3A%5C%22Crystal%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A6%3A%5C%22Holder%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22ApogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A24%3A%5C%22crystal%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222014-09-12+11%3A21%3A16%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-10-31+11%3A07%3A57%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A3%3A%5C%22115%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222015-03-17%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A1%3A%5C%224%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%222014-09-11+19%3A09%3A35%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-11-01 13:46:01 - loil - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aFmC5Y2gcwJ_FzrS2NAa2t0qloTT9V2JK1YSzkW4jAthg,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-11-01 13:46:01 - loil - Validated! Do sitecom update!
+2016-11-01 13:46:01 - loil - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 4
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-01 13:46:01
+)
+2016-11-01 13:46:01 - loil - perform_request(user_management,autoadd_user,arr,arr)
+2016-11-01 13:46:01 - loil - DATA:Array
+(
+    [userID] => 34
+    [access_level] => 0
+    [username] => crystal
+    [password] => 7ig454321b48861124366522df8af079d6edcabbd37641179294749b3c9ee1732e5449
+    [first_name] => Crystal
+    [last_name] => Holder
+    [company] => ApogeeINVENT
+    [email] => crystal@apogeeinvent.com
+    [first_login] => 2014-09-12 11:21:16
+    [last_login] => 2016-10-31 11:07:57
+    [login_counter] => 115
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => Website Developer
+    [hashed_pass] => 1
+    [pass_creation_date] => 2015-03-17
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 4
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 2014-09-11 19:09:35
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-11-01 13:46:01 - loil - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 4
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-01 13:46:01
+)
+2016-11-01 13:46:01 - loil - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-11-01 13:46:01 - loil - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=S9khbsC1A9JYf9w0Y0dqDMIdyBtUTiMiuN6CAQa9l9uZaPOD_0Kb7dxWMaCXnSNWaa9riPaulaZN_Z1GwM28jQ
+2016-11-03 10:41:54 - w7u5 - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N9Xtu5XvAYbe7M1AUnr7gtbgSTVRtv0RdzDfStQhiwE-Q&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aH4BV7pvfUNDueezTlSR1gJNzWYg5Y9lRVVv0BzMVCc9w&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-11-03+10%3A41%3A56+CDT&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A1%3A%5C%225%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A4%3A%5C%221024%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A6%3A%5C%22andrew%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22d0y22a0c65aee84ecca9a7b8ee9b544c48078de5df3adf61fb6fbb637b1ec0e487c1dy%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A6%3A%5C%22Andrew%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A8%3A%5C%22Lovelace%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22apogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A23%3A%5C%22andrew%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222011-09-23+13%3A41%3A17%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-10-31+13%3A09%3A32%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A3%3A%5C%22389%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222015-05-05%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3Bs%3A71%3A%5C%22z0zdc1bb78755b3b485fae18e67ec8bf5e44adb359288acfb7424596195474d3d637fj%7C%5C%22%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A2%3A%5C%2212%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-11-03 10:41:54 - w7u5 - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aH4BV7pvfUNDueezTlSR1gJNzWYg5Y9lRVVv0BzMVCc9w,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-11-03 10:41:54 - w7u5 - Validated! Do sitecom update!
+2016-11-03 10:41:54 - w7u5 - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 5
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-03 10:41:54
+)
+2016-11-03 10:41:54 - w7u5 - perform_request(user_management,autoadd_user,arr,arr)
+2016-11-03 10:41:54 - w7u5 - DATA:Array
+(
+    [userID] => 5
+    [access_level] => 1024
+    [username] => andrew
+    [password] => d0y22a0c65aee84ecca9a7b8ee9b544c48078de5df3adf61fb6fbb637b1ec0e487c1dy
+    [first_name] => Andrew
+    [last_name] => Lovelace
+    [company] => apogeeINVENT
+    [email] => andrew@apogeeinvent.com
+    [first_login] => 2011-09-23 13:41:17
+    [last_login] => 2016-10-31 13:09:32
+    [login_counter] => 389
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => Website Developer
+    [hashed_pass] => 1
+    [pass_creation_date] => 2015-05-05
+    [prev_pass] => z0zdc1bb78755b3b485fae18e67ec8bf5e44adb359288acfb7424596195474d3d637fj|
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 12
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 0000-00-00 00:00:00
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-11-03 10:41:54 - w7u5 - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 5
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-03 10:41:54
+)
+2016-11-03 10:41:54 - w7u5 - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-11-03 10:41:54 - w7u5 - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=1SweyoRuhgzShfZLCrZiTjgLvxVDT1ZQnQKkbwBoYGrX_Mu5JSWklWKmSJzEcM2R8GQZmDYSr6MbZF0kYzdeig
+2016-11-07 14:34:35 - 96qp - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N8K4Ej1_ut6yB458Nxeew0stHqqOMVMXXrD6iHa5B3ItQ&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aFa6LVkyZP-6utgJZdMcL9igo9ai5XcPqJQA0XhtmXi9w&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-11-07+14%3A34%3A36+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A2%3A%5C%2234%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A7%3A%5C%22crystal%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%227ig454321b48861124366522df8af079d6edcabbd37641179294749b3c9ee1732e5449%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A7%3A%5C%22Crystal%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A6%3A%5C%22Holder%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22ApogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A24%3A%5C%22crystal%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222014-09-12+11%3A21%3A16%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-11-07+10%3A09%3A56%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A3%3A%5C%22116%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222015-03-17%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A1%3A%5C%224%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%222014-09-11+19%3A09%3A35%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-11-07 14:34:35 - 96qp - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aFa6LVkyZP-6utgJZdMcL9igo9ai5XcPqJQA0XhtmXi9w,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-11-07 14:34:35 - 96qp - Validated! Do sitecom update!
+2016-11-07 14:34:35 - 96qp - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 6
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-07 14:34:35
+)
+2016-11-07 14:34:35 - 96qp - perform_request(user_management,autoadd_user,arr,arr)
+2016-11-07 14:34:35 - 96qp - DATA:Array
+(
+    [userID] => 34
+    [access_level] => 0
+    [username] => crystal
+    [password] => 7ig454321b48861124366522df8af079d6edcabbd37641179294749b3c9ee1732e5449
+    [first_name] => Crystal
+    [last_name] => Holder
+    [company] => ApogeeINVENT
+    [email] => crystal@apogeeinvent.com
+    [first_login] => 2014-09-12 11:21:16
+    [last_login] => 2016-11-07 10:09:56
+    [login_counter] => 116
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => Website Developer
+    [hashed_pass] => 1
+    [pass_creation_date] => 2015-03-17
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 4
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 2014-09-11 19:09:35
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-11-07 14:34:35 - 96qp - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 6
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-07 14:34:35
+)
+2016-11-07 14:34:35 - 96qp - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-11-07 14:34:35 - 96qp - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=dS37sI_RXdqDCDBEA1mJT1tMVU4KZ26TmWG91ILlSJ3jVQW6jE8KbksbzWAEp7Cje7quwSy_b16bjXQY4QLh5Q
+2016-11-07 14:38:07 - hqg6 - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N-OaJKd32mtpS3I2TIminVGtOog1MQP0UaMTg_zdvzLXQ&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aFYVLmoxE8sKucCfmaWnrGQpJN8-zggHj8DnaYUOeG5QQ&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-11-07+14%3A38%3A07+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A2%3A%5C%2234%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A7%3A%5C%22crystal%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%227ig454321b48861124366522df8af079d6edcabbd37641179294749b3c9ee1732e5449%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A7%3A%5C%22Crystal%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A6%3A%5C%22Holder%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22ApogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A24%3A%5C%22crystal%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222014-09-12+11%3A21%3A16%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-11-07+10%3A09%3A56%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A3%3A%5C%22116%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222015-03-17%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A1%3A%5C%224%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%222014-09-11+19%3A09%3A35%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-11-07 14:38:07 - hqg6 - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aFYVLmoxE8sKucCfmaWnrGQpJN8-zggHj8DnaYUOeG5QQ,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-11-07 14:38:07 - hqg6 - Validated! Do sitecom update!
+2016-11-07 14:38:07 - hqg6 - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 7
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-07 14:38:07
+)
+2016-11-07 14:38:07 - hqg6 - perform_request(user_management,autoadd_user,arr,arr)
+2016-11-07 14:38:07 - hqg6 - DATA:Array
+(
+    [userID] => 34
+    [access_level] => 0
+    [username] => crystal
+    [password] => 7ig454321b48861124366522df8af079d6edcabbd37641179294749b3c9ee1732e5449
+    [first_name] => Crystal
+    [last_name] => Holder
+    [company] => ApogeeINVENT
+    [email] => crystal@apogeeinvent.com
+    [first_login] => 2014-09-12 11:21:16
+    [last_login] => 2016-11-07 10:09:56
+    [login_counter] => 116
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => Website Developer
+    [hashed_pass] => 1
+    [pass_creation_date] => 2015-03-17
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 4
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 2014-09-11 19:09:35
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-11-07 14:38:07 - hqg6 - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 7
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-07 14:38:07
+)
+2016-11-07 14:38:07 - hqg6 - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-11-07 14:38:07 - hqg6 - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=rb_BuPskFTK13EloKpkazyeEr0yAZSzBRyvZn1qecy3jVQW6jE8KbksbzWAEp7Cje7quwSy_b16bjXQY4QLh5Q
+2016-11-07 18:14:29 - povr - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N_l7sr157O2C2eX-_Wl6VG1v1fPDypqhEe0ezm2EkpT8A&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aGBKYd0C6VAHYVdg7MpUNTy_jVsHhNNJ_6RGnbj2n_icg&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-11-07+18%3A14%3A29+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A2%3A%5C%2234%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A7%3A%5C%22crystal%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%227ig454321b48861124366522df8af079d6edcabbd37641179294749b3c9ee1732e5449%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A7%3A%5C%22Crystal%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A6%3A%5C%22Holder%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22ApogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A24%3A%5C%22crystal%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222014-09-12+11%3A21%3A16%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-11-07+18%3A14%3A12%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A3%3A%5C%22117%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222015-03-17%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A1%3A%5C%224%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%222014-09-11+19%3A09%3A35%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-11-07 18:14:29 - povr - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aGBKYd0C6VAHYVdg7MpUNTy_jVsHhNNJ_6RGnbj2n_icg,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-11-07 18:14:29 - povr - Validated! Do sitecom update!
+2016-11-07 18:14:29 - povr - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 8
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-07 18:14:29
+)
+2016-11-07 18:14:29 - povr - perform_request(user_management,autoadd_user,arr,arr)
+2016-11-07 18:14:29 - povr - DATA:Array
+(
+    [userID] => 34
+    [access_level] => 0
+    [username] => crystal
+    [password] => 7ig454321b48861124366522df8af079d6edcabbd37641179294749b3c9ee1732e5449
+    [first_name] => Crystal
+    [last_name] => Holder
+    [company] => ApogeeINVENT
+    [email] => crystal@apogeeinvent.com
+    [first_login] => 2014-09-12 11:21:16
+    [last_login] => 2016-11-07 18:14:12
+    [login_counter] => 117
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => Website Developer
+    [hashed_pass] => 1
+    [pass_creation_date] => 2015-03-17
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 4
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 2014-09-11 19:09:35
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-11-07 18:14:29 - povr - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 8
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-07 18:14:29
+)
+2016-11-07 18:14:29 - povr - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-11-07 18:14:29 - povr - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=qGnCBwrZO5VkaGq1vKHAUNdnyqS1WiUzqAKqyEFSe9DjVQW6jE8KbksbzWAEp7Cje7quwSy_b16bjXQY4QLh5Q
+2016-11-18 13:57:13 - qm7h - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N80u-3sdaFM6WxRBwnWq8qZirfEKOF6VHXMrCV3hbrK-w&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aEDrtDS0gVgWHrf5v6Rm8ydr-_WCiWZyAKF6r_7IHmWuw&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-11-18+13%3A57%3A13+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A1%3A%5C%224%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A4%3A%5C%221024%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A3%3A%5C%22jon%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22kh104558478b2d54faaa85b63baf629fd305682c3ad13590e4c5ed25021a3be1f97qq4%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A3%3A%5C%22Jon%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A8%3A%5C%22Agbayani%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22apogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A20%3A%5C%22jon%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222013-01-07+15%3A06%3A31%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-11-18+13%3A56%3A57%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A3%3A%5C%22184%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222013-01-07%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-11-18 13:57:13 - qm7h - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aEDrtDS0gVgWHrf5v6Rm8ydr-_WCiWZyAKF6r_7IHmWuw,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-11-18 13:57:13 - qm7h - Validated! Do sitecom update!
+2016-11-18 13:57:13 - qm7h - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 9
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-18 13:57:13
+)
+2016-11-18 13:57:13 - qm7h - perform_request(user_management,autoadd_user,arr,arr)
+2016-11-18 13:57:13 - qm7h - DATA:Array
+(
+    [userID] => 4
+    [access_level] => 1024
+    [username] => jon
+    [password] => kh104558478b2d54faaa85b63baf629fd305682c3ad13590e4c5ed25021a3be1f97qq4
+    [first_name] => Jon
+    [last_name] => Agbayani
+    [company] => apogeeINVENT
+    [email] => jon@apogeeinvent.com
+    [first_login] => 2013-01-07 15:06:31
+    [last_login] => 2016-11-18 13:56:57
+    [login_counter] => 184
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => Website Developer
+    [hashed_pass] => 1
+    [pass_creation_date] => 2013-01-07
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 0
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 0000-00-00 00:00:00
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-11-18 13:57:13 - qm7h - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 9
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-18 13:57:13
+)
+2016-11-18 13:57:13 - qm7h - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-11-18 13:57:13 - qm7h - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=tYTtC-yc2q9KizcgAY-Y84fUnYJasplPW9SbeJ3v6EGfPOUpUDeWBt1J-kzAF0yB6lfRj90qcoZvQr1IN5KF_w
+2016-11-18 14:39:28 - jxs1 - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N-Edfg6A8GOiCZ9YRegaFqLRYK60LU3edECrisy_kEp5g&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aGTWmi7JJsyj8QCQwXy8Ygifggy5N8oFuzw0_26XwHYuQ&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-11-18+14%3A39%3A28+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A1%3A%5C%224%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A4%3A%5C%221024%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A3%3A%5C%22jon%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22kh104558478b2d54faaa85b63baf629fd305682c3ad13590e4c5ed25021a3be1f97qq4%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A3%3A%5C%22Jon%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A8%3A%5C%22Agbayani%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22apogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A20%3A%5C%22jon%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222013-01-07+15%3A06%3A31%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-11-18+13%3A56%3A57%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A3%3A%5C%22184%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222013-01-07%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-11-18 14:39:28 - jxs1 - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aGTWmi7JJsyj8QCQwXy8Ygifggy5N8oFuzw0_26XwHYuQ,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-11-18 14:39:28 - jxs1 - Validated! Do sitecom update!
+2016-11-18 14:39:28 - jxs1 - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 10
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-18 14:39:28
+)
+2016-11-18 14:39:28 - jxs1 - perform_request(user_management,autoadd_user,arr,arr)
+2016-11-18 14:39:28 - jxs1 - DATA:Array
+(
+    [userID] => 4
+    [access_level] => 1024
+    [username] => jon
+    [password] => kh104558478b2d54faaa85b63baf629fd305682c3ad13590e4c5ed25021a3be1f97qq4
+    [first_name] => Jon
+    [last_name] => Agbayani
+    [company] => apogeeINVENT
+    [email] => jon@apogeeinvent.com
+    [first_login] => 2013-01-07 15:06:31
+    [last_login] => 2016-11-18 13:56:57
+    [login_counter] => 184
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => Website Developer
+    [hashed_pass] => 1
+    [pass_creation_date] => 2013-01-07
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 0
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 0000-00-00 00:00:00
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-11-18 14:39:28 - jxs1 - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 10
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-18 14:39:28
+)
+2016-11-18 14:39:28 - jxs1 - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-11-18 14:39:28 - jxs1 - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=faf0Ee-eix0YMZ_hLUh0FJzfqRGGdiwmCiwQI27qvgWfPOUpUDeWBt1J-kzAF0yB6lfRj90qcoZvQr1IN5KF_w
+2016-11-23 11:02:03 - rgv2 - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N_cYjIhwEJdnAieHkjA_xKYmw5KIqetir94fzV5ThDwLA&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHffRLuI4l1uvKQnJD0IHEZvT-xzs8_SFue6tDUatsbYw&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-11-23+11%3A02%3A03+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A1%3A%5C%224%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A4%3A%5C%221024%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A3%3A%5C%22jon%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22kh104558478b2d54faaa85b63baf629fd305682c3ad13590e4c5ed25021a3be1f97qq4%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A3%3A%5C%22Jon%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A8%3A%5C%22Agbayani%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22apogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A20%3A%5C%22jon%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222013-01-07+15%3A06%3A31%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-11-23+10%3A56%3A39%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A3%3A%5C%22187%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222013-01-07%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-11-23 11:02:03 - rgv2 - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHffRLuI4l1uvKQnJD0IHEZvT-xzs8_SFue6tDUatsbYw,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-11-23 11:02:03 - rgv2 - Validated! Do sitecom update!
+2016-11-23 11:02:03 - rgv2 - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 11
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-23 11:02:03
+)
+2016-11-23 11:02:03 - rgv2 - perform_request(user_management,autoadd_user,arr,arr)
+2016-11-23 11:02:03 - rgv2 - DATA:Array
+(
+    [userID] => 4
+    [access_level] => 1024
+    [username] => jon
+    [password] => kh104558478b2d54faaa85b63baf629fd305682c3ad13590e4c5ed25021a3be1f97qq4
+    [first_name] => Jon
+    [last_name] => Agbayani
+    [company] => apogeeINVENT
+    [email] => jon@apogeeinvent.com
+    [first_login] => 2013-01-07 15:06:31
+    [last_login] => 2016-11-23 10:56:39
+    [login_counter] => 187
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => Website Developer
+    [hashed_pass] => 1
+    [pass_creation_date] => 2013-01-07
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 0
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 0000-00-00 00:00:00
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-11-23 11:02:03 - rgv2 - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 11
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-11-23 11:02:03
+)
+2016-11-23 11:02:03 - rgv2 - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-11-23 11:02:03 - rgv2 - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=7jik3m6K59BRhCnc1UFm3kxD6J05k8sXwfzERnS_yRKfPOUpUDeWBt1J-kzAF0yB6lfRj90qcoZvQr1IN5KF_w
+2016-12-01 11:54:50 - pfjo - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N9d7yzI2YvzDu9rEAj_YxnDZ1a6a2ym--uhMYssiHYrBg&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aFc5e6gQukMSFNKW1IAQn1-E1IW7Ab1w45Jb-tfTRQKQg&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-12-01+11%3A54%3A50+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A2%3A%5C%2245%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A6%3A%5C%22danish%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A6%3A%5C%22Danish%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A4%3A%5C%22Khan%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22ApogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A23%3A%5C%22danish%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A09%3A33%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-12-01+11%3A54%3A40%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A2%3A%5C%2277%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222016-08-31%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3BN%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A2%3A%5C%2222%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A07%3A53%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-12-01 11:54:50 - pfjo - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aFc5e6gQukMSFNKW1IAQn1-E1IW7Ab1w45Jb-tfTRQKQg,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-12-01 11:54:50 - pfjo - Validated! Do sitecom update!
+2016-12-01 11:54:50 - pfjo - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 12
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-01 11:54:50
+)
+2016-12-01 11:54:50 - pfjo - perform_request(user_management,autoadd_user,arr,arr)
+2016-12-01 11:54:50 - pfjo - DATA:Array
+(
+    [userID] => 45
+    [access_level] => 0
+    [username] => danish
+    [password] => i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj
+    [first_name] => Danish
+    [last_name] => Khan
+    [company] => ApogeeINVENT
+    [email] => danish@apogeeinvent.com
+    [first_login] => 2016-08-31 12:09:33
+    [last_login] => 2016-12-01 11:54:40
+    [login_counter] => 77
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => 
+    [hashed_pass] => 1
+    [pass_creation_date] => 2016-08-31
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 22
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 2016-08-31 12:07:53
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-12-01 11:54:50 - pfjo - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 12
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-01 11:54:50
+)
+2016-12-01 11:54:50 - pfjo - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-12-01 11:54:51 - pfjo - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=mxMFoQDUvXQCE3GBQr0c05xalNxm27PQGs0Wp0edxL7JxBfGuf7oxS0G3f-8rp5y64EA3s98YyMy7y3LHVXtkQ
+2016-12-02 11:05:49 - rdwi - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N8g3QtWdoJY9hAJEkZ_jv_29SU7UXFhQ20ZXeI5CX_z8g&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHYhkS91MSxwf4zvmdbH1y7gnUELhV5wYu5e0VY1fMmgw&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-12-02+11%3A05%3A49+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A2%3A%5C%2245%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A6%3A%5C%22danish%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A6%3A%5C%22Danish%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A4%3A%5C%22Khan%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22ApogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A23%3A%5C%22danish%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A09%3A33%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-12-02+11%3A05%3A27%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A2%3A%5C%2283%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222016-08-31%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3BN%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A2%3A%5C%2222%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A07%3A53%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-12-02 11:05:49 - rdwi - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHYhkS91MSxwf4zvmdbH1y7gnUELhV5wYu5e0VY1fMmgw,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-12-02 11:05:49 - rdwi - Validated! Do sitecom update!
+2016-12-02 11:05:49 - rdwi - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 13
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 11:05:49
+)
+2016-12-02 11:05:49 - rdwi - perform_request(user_management,autoadd_user,arr,arr)
+2016-12-02 11:05:49 - rdwi - DATA:Array
+(
+    [userID] => 45
+    [access_level] => 0
+    [username] => danish
+    [password] => i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj
+    [first_name] => Danish
+    [last_name] => Khan
+    [company] => ApogeeINVENT
+    [email] => danish@apogeeinvent.com
+    [first_login] => 2016-08-31 12:09:33
+    [last_login] => 2016-12-02 11:05:27
+    [login_counter] => 83
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => 
+    [hashed_pass] => 1
+    [pass_creation_date] => 2016-08-31
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 22
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 2016-08-31 12:07:53
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-12-02 11:05:49 - rdwi - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 13
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 11:05:49
+)
+2016-12-02 11:05:49 - rdwi - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-12-02 11:05:49 - rdwi - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=c97dQ28QDJ_YxC9uD6hScV1ZeRHDiYh9ztjvlydIbx7JxBfGuf7oxS0G3f-8rp5y64EA3s98YyMy7y3LHVXtkQ
+2016-12-02 11:06:08 - juri - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N_GbCVtlaQphX_B_k-MP6IxKuAhIZGtNvQKlzDT0DCFmg&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHrYBAqDBRIuXgPDyD1oCK1Qfy3bLUOqSafMxoqAw3JEA&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-12-02+11%3A06%3A09+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A2%3A%5C%2245%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A6%3A%5C%22danish%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A6%3A%5C%22Danish%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A4%3A%5C%22Khan%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22ApogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A23%3A%5C%22danish%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A09%3A33%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-12-02+11%3A05%3A27%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A2%3A%5C%2283%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222016-08-31%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3BN%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A2%3A%5C%2222%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A07%3A53%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-12-02 11:06:08 - juri - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHrYBAqDBRIuXgPDyD1oCK1Qfy3bLUOqSafMxoqAw3JEA,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-12-02 11:06:08 - juri - Validated! Do sitecom update!
+2016-12-02 11:06:08 - juri - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 14
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 11:06:08
+)
+2016-12-02 11:06:08 - juri - perform_request(user_management,autoadd_user,arr,arr)
+2016-12-02 11:06:08 - juri - DATA:Array
+(
+    [userID] => 45
+    [access_level] => 0
+    [username] => danish
+    [password] => i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj
+    [first_name] => Danish
+    [last_name] => Khan
+    [company] => ApogeeINVENT
+    [email] => danish@apogeeinvent.com
+    [first_login] => 2016-08-31 12:09:33
+    [last_login] => 2016-12-02 11:05:27
+    [login_counter] => 83
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => 
+    [hashed_pass] => 1
+    [pass_creation_date] => 2016-08-31
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 22
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 2016-08-31 12:07:53
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-12-02 11:06:08 - juri - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 14
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 11:06:08
+)
+2016-12-02 11:06:08 - juri - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-12-02 11:06:08 - juri - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=68OtMNZARqzEno1AtrzQDCsdmhK6PGOb1nGhjpZtc9nJxBfGuf7oxS0G3f-8rp5y64EA3s98YyMy7y3LHVXtkQ
+2016-12-02 11:07:21 - pk5q - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N-1qOEXaSorobrGjmZqwMxOz5QHu60Hm4IliVe1L3FTng&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHictb-ys7Wrv_qePnWybaYqNHbhCWkiJlqftqH7sFlOw&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-12-02+11%3A07%3A22+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A2%3A%5C%2245%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A6%3A%5C%22danish%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A6%3A%5C%22Danish%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A4%3A%5C%22Khan%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22ApogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A23%3A%5C%22danish%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A09%3A33%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-12-02+11%3A05%3A27%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A2%3A%5C%2283%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222016-08-31%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3BN%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A2%3A%5C%2222%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A07%3A53%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-12-02 11:07:21 - pk5q - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHictb-ys7Wrv_qePnWybaYqNHbhCWkiJlqftqH7sFlOw,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-12-02 11:07:21 - pk5q - Validated! Do sitecom update!
+2016-12-02 11:07:21 - pk5q - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 15
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 11:07:21
+)
+2016-12-02 11:07:21 - pk5q - perform_request(user_management,autoadd_user,arr,arr)
+2016-12-02 11:07:21 - pk5q - DATA:Array
+(
+    [userID] => 45
+    [access_level] => 0
+    [username] => danish
+    [password] => i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj
+    [first_name] => Danish
+    [last_name] => Khan
+    [company] => ApogeeINVENT
+    [email] => danish@apogeeinvent.com
+    [first_login] => 2016-08-31 12:09:33
+    [last_login] => 2016-12-02 11:05:27
+    [login_counter] => 83
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => 
+    [hashed_pass] => 1
+    [pass_creation_date] => 2016-08-31
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 22
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 2016-08-31 12:07:53
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-12-02 11:07:21 - pk5q - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 15
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 11:07:21
+)
+2016-12-02 11:07:21 - pk5q - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-12-02 11:07:21 - pk5q - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=1fQtNMWFnVqZdouH6Ph6o4RDwIATyh35GzLvAufOMhrJxBfGuf7oxS0G3f-8rp5y64EA3s98YyMy7y3LHVXtkQ
+2016-12-02 11:45:16 - u91h - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N8U_fH21PEhOAX5Lp1R37DYPW3DAp0DCzG-dqCYhiABLw&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aFKpgLDdknYZAgWyVxnmMq0bF6TX91KZ9iIPozLow97lA&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-12-02+11%3A45%3A17+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A2%3A%5C%2245%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A6%3A%5C%22danish%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A6%3A%5C%22Danish%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A4%3A%5C%22Khan%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22ApogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A23%3A%5C%22danish%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A09%3A33%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-12-02+11%3A05%3A27%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A2%3A%5C%2283%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222016-08-31%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3BN%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A2%3A%5C%2222%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A07%3A53%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-12-02 11:45:16 - u91h - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aFKpgLDdknYZAgWyVxnmMq0bF6TX91KZ9iIPozLow97lA,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-12-02 11:45:16 - u91h - Validated! Do sitecom update!
+2016-12-02 11:45:17 - u91h - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 16
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 11:45:16
+)
+2016-12-02 11:45:17 - u91h - perform_request(user_management,autoadd_user,arr,arr)
+2016-12-02 11:45:17 - u91h - DATA:Array
+(
+    [userID] => 45
+    [access_level] => 0
+    [username] => danish
+    [password] => i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj
+    [first_name] => Danish
+    [last_name] => Khan
+    [company] => ApogeeINVENT
+    [email] => danish@apogeeinvent.com
+    [first_login] => 2016-08-31 12:09:33
+    [last_login] => 2016-12-02 11:05:27
+    [login_counter] => 83
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => 
+    [hashed_pass] => 1
+    [pass_creation_date] => 2016-08-31
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 22
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 2016-08-31 12:07:53
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-12-02 11:45:17 - u91h - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 16
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 11:45:16
+)
+2016-12-02 11:45:17 - u91h - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-12-02 11:45:17 - u91h - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=gYoPfwhhHJOpSP0ZzsA4xjd_zLeCipOaM4QTyWSmjQ_JxBfGuf7oxS0G3f-8rp5y64EA3s98YyMy7y3LHVXtkQ
+2016-12-02 11:46:35 - y6be - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N8-I8kc21KvIpg8fg96qv9PMPjL3t1Ce6nb-BWHo5mM3A&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHQxQRPiAKOSeEQI_TPXc8Aq9pRUZr4wrjbVAap92sERw&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-12-02+11%3A46%3A36+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A2%3A%5C%2245%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A6%3A%5C%22danish%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A6%3A%5C%22Danish%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A4%3A%5C%22Khan%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22ApogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A23%3A%5C%22danish%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A09%3A33%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-12-02+11%3A46%3A35%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A2%3A%5C%2284%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222016-08-31%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3BN%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A2%3A%5C%2222%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A07%3A53%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-12-02 11:46:35 - y6be - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aHQxQRPiAKOSeEQI_TPXc8Aq9pRUZr4wrjbVAap92sERw,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-12-02 11:46:35 - y6be - Validated! Do sitecom update!
+2016-12-02 11:46:35 - y6be - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 17
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 11:46:35
+)
+2016-12-02 11:46:35 - y6be - perform_request(user_management,autoadd_user,arr,arr)
+2016-12-02 11:46:35 - y6be - DATA:Array
+(
+    [userID] => 45
+    [access_level] => 0
+    [username] => danish
+    [password] => i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj
+    [first_name] => Danish
+    [last_name] => Khan
+    [company] => ApogeeINVENT
+    [email] => danish@apogeeinvent.com
+    [first_login] => 2016-08-31 12:09:33
+    [last_login] => 2016-12-02 11:46:35
+    [login_counter] => 84
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => 
+    [hashed_pass] => 1
+    [pass_creation_date] => 2016-08-31
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 22
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 2016-08-31 12:07:53
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-12-02 11:46:35 - y6be - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 17
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 11:46:35
+)
+2016-12-02 11:46:35 - y6be - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-12-02 11:46:35 - y6be - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=G3xC3T457oO6G055VkWnHFXtB9lTYupEmAkx45T2uvrJxBfGuf7oxS0G3f-8rp5y64EA3s98YyMy7y3LHVXtkQ
+2016-12-02 11:46:54 - 0o7h - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N-UJug7c5I1IczBG3BNfFJx9gTf3R6u6kOsqUf3XRG2vA&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aEjuCCWDbV3ygB-7nRmL7HAh3C5ffRDxGeHJsOEsByi3A&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-12-02+11%3A46%3A54+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A2%3A%5C%2245%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A6%3A%5C%22danish%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A6%3A%5C%22Danish%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A4%3A%5C%22Khan%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22ApogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A23%3A%5C%22danish%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A09%3A33%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-12-02+11%3A46%3A35%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A2%3A%5C%2284%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222016-08-31%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3BN%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A2%3A%5C%2222%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%222016-08-31+12%3A07%3A53%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-12-02 11:46:54 - 0o7h - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aEjuCCWDbV3ygB-7nRmL7HAh3C5ffRDxGeHJsOEsByi3A,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-12-02 11:46:54 - 0o7h - Validated! Do sitecom update!
+2016-12-02 11:46:54 - 0o7h - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 18
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 11:46:54
+)
+2016-12-02 11:46:54 - 0o7h - perform_request(user_management,autoadd_user,arr,arr)
+2016-12-02 11:46:54 - 0o7h - DATA:Array
+(
+    [userID] => 45
+    [access_level] => 0
+    [username] => danish
+    [password] => i10ef42d1b82df8d0f9c70aeba4da4aaa78d2a2091ff0c4bbf9631daf987920f65arqj
+    [first_name] => Danish
+    [last_name] => Khan
+    [company] => ApogeeINVENT
+    [email] => danish@apogeeinvent.com
+    [first_login] => 2016-08-31 12:09:33
+    [last_login] => 2016-12-02 11:46:35
+    [login_counter] => 84
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => 
+    [hashed_pass] => 1
+    [pass_creation_date] => 2016-08-31
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 22
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 2016-08-31 12:07:53
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-12-02 11:46:54 - 0o7h - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 18
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 11:46:54
+)
+2016-12-02 11:46:54 - 0o7h - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-12-02 11:46:54 - 0o7h - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=Cxch1xPjPOXg4UYnSTBoP2w1-HOykHurVJ6RK7syjsDJxBfGuf7oxS0G3f-8rp5y64EA3s98YyMy7y3LHVXtkQ
+2016-12-02 17:30:39 - huyw - receive() POST:mod=user_management&cmd=autoadd_user&do_log=1&guid=%7B3AF0B2D2-A71D-31C4-78A4-81BA8B48A369%7D&regserv_auth=Y0HFix1kUkpW1jfk6N1WPeLcExMVuM3LomDkuiLn8N98jCx2tl9-kpKez5deCG9fN2OuGzr_0cngBw4QZOsKxA&shared_auth=_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aEicPJIWC9ZB6RbDXRh7LVSaB76zcCqvkJ8eW1-N76usQ&regcrypted_shared_key=3UU_0laSMIfn9-nsfoPdbsKWtfmrp5ifc6m5x5MjUWM&request_time=2016-12-02+17%3A30%3A40+CST&site_name=DMW+Core&http_url=http%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&https_url=https%3A%2F%2Fsitereg.apogeehost.com%2F%7Esitereg%2F&encypted=0&data=a%3A49%3A%7Bs%3A6%3A%5C%22userID%5C%22%3Bs%3A1%3A%5C%224%5C%22%3Bs%3A12%3A%5C%22access_level%5C%22%3Bs%3A4%3A%5C%221024%5C%22%3Bs%3A8%3A%5C%22username%5C%22%3Bs%3A3%3A%5C%22jon%5C%22%3Bs%3A8%3A%5C%22password%5C%22%3Bs%3A70%3A%5C%22kh104558478b2d54faaa85b63baf629fd305682c3ad13590e4c5ed25021a3be1f97qq4%5C%22%3Bs%3A10%3A%5C%22first_name%5C%22%3Bs%3A3%3A%5C%22Jon%5C%22%3Bs%3A9%3A%5C%22last_name%5C%22%3Bs%3A8%3A%5C%22Agbayani%5C%22%3Bs%3A7%3A%5C%22company%5C%22%3Bs%3A12%3A%5C%22apogeeINVENT%5C%22%3Bs%3A5%3A%5C%22email%5C%22%3Bs%3A20%3A%5C%22jon%40apogeeinvent.com%5C%22%3Bs%3A11%3A%5C%22first_login%5C%22%3Bs%3A19%3A%5C%222013-01-07+15%3A06%3A31%5C%22%3Bs%3A10%3A%5C%22last_login%5C%22%3Bs%3A19%3A%5C%222016-12-02+15%3A33%3A33%5C%22%3Bs%3A13%3A%5C%22login_counter%5C%22%3Bs%3A3%3A%5C%22191%5C%22%3Bs%3A11%3A%5C%22admin_notes%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A17%3A%5C%22prev_account_type%5C%22%3Bs%3A17%3A%5C%22Website+Developer%5C%22%3Bs%3A11%3A%5C%22hashed_pass%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A18%3A%5C%22pass_creation_date%5C%22%3Bs%3A10%3A%5C%222013-01-07%5C%22%3Bs%3A9%3A%5C%22prev_pass%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A15%3A%5C%22access_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22enabled%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A14%3A%5C%22reset_password%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A21%3A%5C%22unsuccessful_attempts%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22locked_out_until%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A11%3A%5C%22custom_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22last_checked%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22gmt_offset%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22govt_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A17%3A%5C%22replication_level%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A7%3A%5C%22lead_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A5%3A%5C%22phone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A10%3A%5C%22referer_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22date_added%5C%22%3Bs%3A19%3A%5C%220000-00-00+00%3A00%3A00%5C%22%3Bs%3A6%3A%5C%22parent%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A10%3A%5C%22hide_store%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A19%3A%5C%22descendant_override%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A16%3A%5C%22postalparrot_api%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A17%3A%5C%22postalparrot_hash%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22primary_role%5C%22%3Bs%3A11%3A%5C%22unspecified%5C%22%3Bs%3A13%3A%5C%22payout_method%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A9%3A%5C%22is_vendor%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A14%3A%5C%22settings_group%5C%22%3Bs%3A1%3A%5C%221%5C%22%3Bs%3A10%3A%5C%22other_vars%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22external_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A11%3A%5C%22campaign_id%5C%22%3Bs%3A1%3A%5C%220%5C%22%3Bs%3A15%3A%5C%22campaign_sub_id%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A12%3A%5C%22is_test_user%5C%22%3Bs%3A2%3A%5C%22No%5C%22%3Bs%3A11%3A%5C%22res_country%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A8%3A%5C%22language%5C%22%3Bs%3A0%3A%5C%22%5C%22%3Bs%3A18%3A%5C%22domain_replication%5C%22%3Bs%3A3%3A%5C%22Yes%5C%22%3Bs%3A8%3A%5C%22timezone%5C%22%3Bs%3A0%3A%5C%22%5C%22%3B%7D
+2016-12-02 17:30:39 - huyw - validate_shared_auth_str(_mRNE77Wd0131PWvC94Ddu-qcV08-brRaHKDlDCl_aEicPJIWC9ZB6RbDXRh7LVSaB76zcCqvkJ8eW1-N76usQ,GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu,{3AF0B2D2-A71D-31C4-78A4-81BA8B48A369})
+2016-12-02 17:30:39 - huyw - Validated! Do sitecom update!
+2016-12-02 17:30:39 - huyw - Used Encrypt Key:GhrJ90YLeBsutP02O1oXnrWvvv9c6tSuArray
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 19
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 17:30:39
+)
+2016-12-02 17:30:39 - huyw - perform_request(user_management,autoadd_user,arr,arr)
+2016-12-02 17:30:39 - huyw - DATA:Array
+(
+    [userID] => 4
+    [access_level] => 1024
+    [username] => jon
+    [password] => kh104558478b2d54faaa85b63baf629fd305682c3ad13590e4c5ed25021a3be1f97qq4
+    [first_name] => Jon
+    [last_name] => Agbayani
+    [company] => apogeeINVENT
+    [email] => jon@apogeeinvent.com
+    [first_login] => 2013-01-07 15:06:31
+    [last_login] => 2016-12-02 15:33:33
+    [login_counter] => 191
+    [admin_notes] => 
+    [account_type] => Website Developer
+    [prev_account_type] => Website Developer
+    [hashed_pass] => 1
+    [pass_creation_date] => 2013-01-07
+    [prev_pass] => 
+    [access_attempts] => 0
+    [enabled] => Yes
+    [reset_password] => No
+    [unsuccessful_attempts] => 0
+    [locked_out_until] => 0000-00-00 00:00:00
+    [custom_vars] => 
+    [last_checked] => 0
+    [gmt_offset] => 0
+    [govt_id] => 0
+    [replication_level] => 0
+    [lead_id] => 0
+    [phone] => 
+    [referer_id] => 0
+    [date_added] => 0000-00-00 00:00:00
+    [parent] => 0
+    [hide_store] => 0
+    [descendant_override] => 0
+    [postalparrot_api] => 
+    [postalparrot_hash] => 
+    [primary_role] => unspecified
+    [payout_method] => 
+    [is_vendor] => No
+    [settings_group] => 1
+    [other_vars] => 
+    [external_id] => 
+    [campaign_id] => 0
+    [campaign_sub_id] => 
+    [is_test_user] => No
+    [res_country] => 
+    [language] => 
+    [domain_replication] => Yes
+    [timezone] => 
+)
+2016-12-02 17:30:39 - huyw - FROM SITECOM:Array
+(
+    [id] => 1
+    [is_ai] => 1
+    [guid] => {3AF0B2D2-A71D-31C4-78A4-81BA8B48A369}
+    [site_name] => DMW Core
+    [http_url] => http://sitereg.apogeehost.com/~sitereg/
+    [https_url] => https://sitereg.apogeehost.com/~sitereg/
+    [shared_key] => GhrJ90YLeBsutP02O1oXnrWvvv9c6tSu
+    [date_authorized] => 2016-09-28 12:26:09
+    [num_from] => 19
+    [num_to] => 0
+    [date_added] => 2016-09-28 12:26:09
+    [last_contact] => 2016-12-02 17:30:39
+)
+2016-12-02 17:30:39 - huyw - USING MODULE user_management->hook_receive_sitecom_CMD_autoadd_user()
+2016-12-02 17:30:39 - huyw - FUNC RETURN: stat=OK&url=https%3A%2F%2Fsaturn.apogeehost.com%2F%7Evivacity%2Flogin&logkey=kw6kkVDoHtdTnUzpMdknrzh1zbYLKVqvULAexaXWJamfPOUpUDeWBt1J-kzAF0yB6lfRj90qcoZvQr1IN5KF_w

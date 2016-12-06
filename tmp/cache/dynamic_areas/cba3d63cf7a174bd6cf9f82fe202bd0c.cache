@@ -1,0 +1,33 @@
+s:1140:"<!--DADEF:a470763567-->
+
+	<div id="login_box">
+		[[error_html]]
+						
+		<h3 id="login_welcome_msg" >Welcome to [[site_name]]</h3>						
+		[[relay_msg]]
+						
+		<form name="frmLogin" method="post" action="[[relay_url]]">
+			<div class="row">
+				<div class="col-xs-12" id="username_contain">				
+										
+					<input type="text" name="username" id="username" class="login_box_input" maxlength="255" value="[[username]]" placeholder="Username"/>								
+				</div>
+				<div class="col-xs-12" id="password_contain">
+				
+					<input type="password" name="password" id="password" class="login_box_input" maxlength="255" value="" placeholder="Password"/>
+				</div>
+				<div id="controls_area" class="col-xs-12">
+					<div id="remember_me_area" class="col-xs-8">
+						<input type="checkbox" name="chkRememberMe" id="remember_me"/>&nbsp;<label for="remember_me">Remember me</label><br/>
+						<a href="[[iforgot_url]]" id="login_box_iforget">Forgot your password?</a>
+					</div>
+					<div id="submit_box" class="col-xs-4">
+						<input type="submit" value="Login" id="login_button">
+					</div>
+				</div>
+	
+			</div>	
+		</form> 
+	</div>
+	
+";
