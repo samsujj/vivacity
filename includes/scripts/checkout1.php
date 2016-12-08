@@ -15,7 +15,7 @@ $is_admin        = $AI->get_access_group_perm('Administrators');
 $is_in_genealogy = $is_logged_in ? $gene->is_descendant(AI_STRUCTURE_NODE_ROOT, util_affiliate_id()) : false;
 
 
-$landing_page = new C_landing_pages('prelauch');
+$landing_page = new C_landing_pages('prelauchtest');
 $landing_page->next_step = 'prelaunchtest';
 $landing_page->pp_create_campaign = true;
 
@@ -45,21 +45,6 @@ $landing_page->card_type_options = array('visa'=>'Visa','mast'=>'Mastercard','am
 $landing_page->no_ship_addr = true;
 
 if(util_is_POST()) {
-    $pcost = $_POST['pcost'];
-
-    $lookup_userID = db_lookup_scalar("SELECT cost FROM `shipping_by_price` WHERE `min` < ".intval($pcost)." && `max` >= ".intval($pcost));
-
-    $shiping_cost = intval($lookup_userID);
-
-    if($shiping_cost > 0){
-        $shiping_cost = number_format($shiping_cost,2);
-    }else{
-        $shiping_cost = number_format(6,2);
-    }
-
-
-    $landing_page->set_shipping_amt($shiping_cost);
-
     $landing_page->validate();
     if($landing_page->has_errors()) { $landing_page->display_errors(); }
     else {
@@ -83,6 +68,8 @@ if(util_is_POST()) {
                 if(util_rep_id()){
                     $util_rep_id = util_rep_id();
                 }
+
+                $util_rep_id = 99;
 
                 // add user at geneology tree
 
@@ -116,18 +103,19 @@ if(util_is_POST()) {
                     }
                 }
 
+
                 $orderid = $landing_page->session['created_order'];
 
                 if(intval($orderid) > 0){
-                    $email_name = 'Order Success';
-                    $send_to = $_POST['email'];
+                    $email_name = 'Enroll Success';
+                    $send_to = 'samsujj@gmail.com';
                     $send_from = 'iftekarkta@gmail.com';
 
                     $vars = array();
                     $vars['name'] = 'Samsuj Jaman';
 
                     $defaults = array();
-                    $defaults['email_subject'] = 'Order Success';
+                    $defaults['email_subject'] = 'Enroll Success';
                     $defaults['email_msg'] = getmailbody($orderid);
 
                     $se = new C_system_emails($email_name);
@@ -145,6 +133,7 @@ if(util_is_POST()) {
 
 $landing_page->refill_form();
 
+
 function getmailbody($orderid =0){
 
     $o_res = db_query("SELECT `o`.`userID`,`o`.`date_added`,`o`.`billing_addr`,`o`.`shipping_addr`,`o`.`shipping`,`o`.`tax`,`o`.`total`,`od`.* FROM `orders` `o` INNER JOIN `order_details` `od` ON `o`.`order_id` = `od`.`order_id` WHERE `o`.`order_id` = ".$orderid);
@@ -158,15 +147,15 @@ function getmailbody($orderid =0){
 
     $product_html='<table width="100%" border="0" cellspacing="0" cellpadding="0" style=" font-family:Arial, Helvetica, sans-serif;">
           <tr>
-            <th width="2%" align="left" valign="middle" style="background:#069d1f;">&nbsp;</th>
-            <th width="47%" align="left" valign="middle" style="background:#069d1f; padding:8px 10px;  font-size:16px; font-weight: bold !important; color:#fff; font-weight:normal; ">Item Description</th>
-            <th width="5%" align="left" valign="middle" style="background:#069d1f; padding:8px 10px;  font-size:16px; font-weight: bold !important; color:#fff; font-weight:normal; "><img src="http://www.vivacitygo.com/system/themes/prelaunch_lp/images/arrowimgupdate.png"  alt="#"/></th>
-            <th width="9%" align="center" valign="middle" style="background:#069d1f; padding:8px 10px;  font-size:16px; font-weight: bold !important; color:#fff; font-weight:normal; "> Price</th>
-            <th width="5%" align="left" valign="middle" style="background:#069d1f; padding:8px 10px;  font-size:16px; font-weight: bold !important; color:#fff; font-weight:normal; "><img src="http://www.vivacitygo.com/system/themes/prelaunch_lp/images/arrowimgupdate.png"  alt="#"/></th>
-            <th width="8%" align="center" valign="middle" style="background:#069d1f; padding:8px 10px;  font-size:16px; font-weight: bold !important; color:#fff; font-weight:normal; ">Qty. </th>
-            <th width="5%" align="left" valign="middle" style="background:#069d1f; padding:8px 10px;  font-size:16px; font-weight: bold !important; color:#fff; font-weight:normal; "><img src="http://www.vivacitygo.com/system/themes/prelaunch_lp/images/arrowimgupdate.png"  alt="#"/></th>
-            <th width="16%" align="center" valign="middle" style="background:#069d1f; padding:8px 10px;  font-size:16px; font-weight: bold !important; color:#fff; font-weight:normal; ">Total </th>
-            <th width="2%" align="left" valign="middle" style="background:#069d1f;">&nbsp;</th>
+            <th width="2%" align="left" valign="middle" style="background:#51b517;">&nbsp;</th>
+            <th width="47%" align="left" valign="middle" style="background:#51b517; padding:8px 10px;  font-size:16px; color:#fff; font-weight:normal; ">Item Description</th>
+            <th width="5%" align="left" valign="middle" style="background:#51b517; padding:8px 10px;  font-size:16px; color:#fff; font-weight:normal; "><img src="http://www.vivacitygo.com/system/themes/prelaunch_lp/images/arrowimgupdate.png"  alt="#"/></th>
+            <th width="9%" align="center" valign="middle" style="background:#51b517; padding:8px 10px;  font-size:16px; color:#fff; font-weight:normal; "> Price</th>
+            <th width="5%" align="left" valign="middle" style="background:#51b517; padding:8px 10px;  font-size:16px; color:#fff; font-weight:normal; "><img src="http://www.vivacitygo.com/system/themes/prelaunch_lp/images/arrowimgupdate.png"  alt="#"/></th>
+            <th width="8%" align="center" valign="middle" style="background:#51b517; padding:8px 10px;  font-size:16px; color:#fff; font-weight:normal; ">Qty. </th>
+            <th width="5%" align="left" valign="middle" style="background:#51b517; padding:8px 10px;  font-size:16px; color:#fff; font-weight:normal; "><img src="http://www.vivacitygo.com/system/themes/prelaunch_lp/images/arrowimgupdate.png"  alt="#"/></th>
+            <th width="16%" align="center" valign="middle" style="background:#51b517; padding:8px 10px;  font-size:16px; color:#fff; font-weight:normal; ">Total </th>
+            <th width="2%" align="left" valign="middle" style="background:#51b517;">&nbsp;</th>
           </tr>
           
         ';
@@ -197,7 +186,7 @@ function getmailbody($orderid =0){
         $subtotal += $p_total;
 
         $product_html .= '<tr>
-            <td align="left" valign="middle" style="border-bottom:solid 2px #069d1f;">&nbsp;</td>
+            <td align="left" valign="middle" style="border-bottom:solid 2px #51b517;">&nbsp;</td>
             <td  align="left" valign="middle" style="padding:8px 10px;  font-size:16px; color:#111; font-weight:normal;  border-bottom:solid 2px #9e9b9b">'.$order['title'].'</td>
             <td align="left" valign="middle" style="border-bottom:solid 2px #9e9b9b;">&nbsp;</td>
             <td  align="center" valign="middle" style="padding:8px 10px;  font-size:16px; color:#111; font-weight:normal;  border-bottom:solid 2px #9e9b9b">$'.$order['price'].'</td>
@@ -205,7 +194,7 @@ function getmailbody($orderid =0){
             <td  align="center" valign="middle" style="padding:8px 10px;  font-size:16px; color:#111; font-weight:normal;  border-bottom:solid 2px #9e9b9b">'.$order['qty'].'</td>
             <td align="left" valign="middle" style="border-bottom:solid 2px #9e9b9b;">&nbsp;</td>
             <td  align="center" valign="middle" style="padding:8px 10px;  font-size:16px; color:#111; font-weight:normal;  border-bottom:solid 2px #9e9b9b">$'.$p_total.'</td>
-            <td align="left" valign="middle" style="border-bottom:solid 2px #069d1f;">&nbsp;</td>
+            <td align="left" valign="middle" style="border-bottom:solid 2px #51b517;">&nbsp;</td>
           </tr>';
 
 
@@ -259,33 +248,25 @@ function getmailbody($orderid =0){
         
         '.$product_html.'
         
-        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:20px 0px; margin:0; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#333; ">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:20px; margin:0; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#333; ">
           <tr>
-            <!---<td width="56%" align="center" valign="middle" style="font-size:18px; color:#aaa; font-style:italic; line-height:30px;">&nbsp;</td>-->
-            <td width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <td width="56%" align="center" valign="middle" style="font-size:18px; color:#aaa; font-style:italic; line-height:30px;">&nbsp;</td>
+            <td width="44%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                  <td width="5%" align="left" valign="middle" style="border-bottom:solid 2px #069d1f;">&nbsp;</td>
-                  <td width="67%" align="right" valign="middle" style="padding:5px; border-bottom:solid 2px #9e9b9b; font-family:Arial, Helvetica, sans-serif;font-size: 18px !important;">Subtotal</td>
-                  <td width="23%" align="right" valign="middle" style="padding:5px; border-bottom:solid 2px #9e9b9b; font-family:Arial, Helvetica, sans-serif;font-size: 18px !important;">$'.$subtotal.'</td>
-                  <td width="5%" align="left" valign="middle" style="border-bottom:solid 2px #069d1f;">&nbsp;</td>
+                  <td width="64%" align="right" valign="middle" style="padding:5px; font-family:Arial, Helvetica, sans-serif;">Subtotal</td>
+                  <td width="36%" align="right" valign="middle" style="padding:5px; font-family:Arial, Helvetica, sans-serif;">$'.$subtotal.'</td>
                 </tr>
                 <tr>
-                  <td width="5%" align="left" valign="middle" style="border-bottom:solid 2px #069d1f;">&nbsp;</td>
-                  <td width="67%" align="right" valign="middle" style="padding:5px;  border-bottom:solid 2px #9e9b9b; font-family:Arial, Helvetica, sans-serif;font-size: 18px !important;">Shipping</td>
-                  <td width="23%" align="right" valign="middle" style="padding:5px; border-bottom:solid 2px #9e9b9b; font-family:Arial, Helvetica, sans-serif;font-size: 18px !important;">$'.$shipping.'</td>
-                  <td width="5%" align="left" valign="middle" style="border-bottom:solid 2px #069d1f;">&nbsp;</td>
+                  <td align="right" valign="middle" style="padding:5px; font-family:Arial, Helvetica, sans-serif;">Shipping</td>
+                  <td align="right" valign="middle" style="padding:5px; font-family:Arial, Helvetica, sans-serif;">$'.$shipping.'</td>
                 </tr>
                 <tr>
-                  <td width="5%" align="left" valign="middle" style="border-bottom:solid 2px #069d1f;">&nbsp;</td>
-                  <td width="67%" align="right" valign="middle" style="padding:5px; border-bottom:solid 2px #9e9b9b; font-family:Arial, Helvetica, sans-serif;font-size: 18px !important; ">Tax</td>
-                  <td width="23%" align="right" valign="middle" style="padding:5px; border-bottom:solid 2px #9e9b9b; font-family:Arial, Helvetica, sans-serif;font-size: 18px !important;">$'.$tax.'</td>
-                  <td width="5%" align="left" valign="middle" style="border-bottom:solid 2px #069d1f;">&nbsp;</td>
+                  <td align="right" valign="middle" style="padding:5px; font-family:Arial, Helvetica, sans-serif; ">Tax</td>
+                  <td align="right" valign="middle" style="padding:5px; font-family:Arial, Helvetica, sans-serif;">$'.$tax.'</td>
                 </tr>
                 <tr>
-                  <td width="5%" align="left" valign="middle" style="background:#069d1f;">&nbsp;</td>
-                  <td width="67%" align="right" valign="middle" style="padding:5px; color:#fff; background:#069d1f; font-size: 22px !important;">Grand Total</td>
-                  <td width="23%" align="right" valign="middle" style="padding:5px; color:#fff; background:#069d1f;">$'.$total_amnt.'</td>
-                  <td width="5%" align="left" valign="middle" style="background:#069d1f;">&nbsp;</td>
+                  <td align="right" valign="middle" style="padding:5px;  color:#fff; background:#51b517;">Grand Total</td>
+                  <td align="right" valign="middle" style="padding:5px;  color:#fff; background:#51b517;">$'.$total_amnt.'</td>
                 </tr>
               </table></td>
           </tr>
@@ -301,174 +282,95 @@ function getmailbody($orderid =0){
 
 
 
-$tax_str = '';
-$tax_arr = array();
-
-$res = db_query("SELECT * FROM `taxes`");
-
-while($res && $row = db_fetch_assoc($res)) {
-    $tax_arr[$row['region']] = $row['amount'];
-}
-
-$tax_str = json_encode($tax_arr);
-
-$ship_str = '';
-$ship_arr = array();
-
-$price_arr = array(99,199);
-
-foreach ($price_arr as $val){
-
-    $res = db_query("SELECT * FROM `shipping_by_price` WHERE `min` <".$val." && `max` >=".$val);
-
-    $ship_arr[$val] = 6;
-
-    while($res && $row = db_fetch_assoc($res)) {
-        $ship_arr[$val] = $row['cost'];
-    }
-
-    $ship_str = json_encode($ship_arr);
-}
-
-
-
 ?>
-<div class="productform" id="productformcon">
 
-    <input type="hidden" id="taxarr" value='<?php echo $tax_str;?>'>
-    <input type="hidden" id="shiparr" value='<?php echo $ship_str;?>'>
-
-    <div class="formheading">
-
-        <h1>  FINAL STEP</h1>
-        <h6>Billing Information</h6>
-    </div>
-
-    <h2>Payment information</h2>
-
-    <h4><span>Secure 128-bit SSL Connection</span></h4>
-    <div class="formmainbg">
-<form name="landing_page" id="landing_page_chk" action="<?=$_SERVER['REQUEST_URI']?>" method="post">
+<form name="landing_page" id="landing_page" action="<?=$_SERVER['REQUEST_URI']?>" method="post">
 
 <!--<form method="post" name="form" onSubmit="return validate(this)">-->
-
-
-
-
-
-<h3>USER INFORMATION</h3>
-
-
-    <input type="hidden" id="testpid" value="0">
-
-    <input name="pid" type="hidden" value="0" id="pid">
-    <input name="shippingcost" type="hidden" value="0" id="shippingcost">
-    <input name="taxcost" type="hidden" value="0" id="taxcost">
-    <input name="pcost" type="hidden" value="0" id="pcost">
+    <input name="pid" type="hidden" value="1">
     <input type="hidden" name="form_time" value="<?= date('Y-m-d H:i:s') ?>" />
-    <input name="username" type="hidden" />
-    <input name="password" type="hidden" />
-    <input name="company" type="hidden" />
-
-    <!--<div class="form-group">
+    <p>
         <label for="first_name">user Name:</label>
         <input name="username" type="text" id="username" />
-        <div class="clearfix"></div>
-    </div>
-    <div class="form-group">
+    </p>
+    <p>
         <label for="last_name">password</label>
         <input name="password" type="password" id="password" />
-    <div class="clearfix"></div>
-    </div>-->
-    <div class="form-group">
+
+    </p>
+    <p>
         <label for="first_name">First Name:</label>
         <input name="first_name" type="text" id="first_name" />
-    <div class="clearfix"></div>
-    </div>
-    <div class="form-group">
+    </p>
+    <p>
         <label for="last_name">Last Name</label>
         <input name="last_name" type="text" id="last_name" />
-    <div class="clearfix"></div>
-  </div>
-    <div class="form-group">
+
+    </p>
+    <p>
         <label for="bill_address_line_1">Address</label>
         <input name="bill_address_line_1" type="text" id="bill_address_line_1" value="" />
-    <div class="clearfix"></div>
-    </div>
-    <div class="form-group">
+    </p>
+    <p>
         <label for="bill_city">City</label>
         <input name="bill_city" type="text" id="bill_city" value="" />
-    <div class="clearfix"></div>
-    </div>
+    </p>
 
-    <div class="form-group">
+    <p>
 
         <label for="bill_country">Country</label>
         <?php $landing_page->draw_country_select('bill_'); ?>
-    <div class="clearfix"></div>
-   </div>
+    </p>
 
 
-    <div class="form-group">
+    <p>
         <label for="bill_region">State</label>
         <?php $landing_page->draw_region_select('bill_'); ?>
-    <div class="clearfix"></div>
-   </div>
+    </p>
     <!--
-        <div class="form-group">
+        <p>
     <label for="">Province/Other</label>
 
     <input type="hidden" name="question[40]" value="Other state"  />
 <input type="text" name="answer[40]" value="" onChange="this.form.state.selectedIndex=1"  />
- <div class="clearfix"></div>
-        </div>
+        </p>
     -->
-    <div class="form-group">
+    <p>
         <label for="bill_postal_code">Zip / Postal Code</label>
         <input name="bill_postal_code" type="text" id="bill_postal_code" />
-    <div class="clearfix"></div>
-    </div>
-    <div class="form-group">
+    </p>
+    <p>
         <label for="phone">Phone</label>
         <input name="phone" type="text" id="phone" />
-    <div class="clearfix"></div>
-    </div>
+    </p>
 
-    <div class="form-group">
+    <p>
         <label for="email">Email</label>
         <input name="email" type="text" id="email"  />
-    <div class="clearfix"></div>
-   </div>
-    <div class="form-group">
+    </p>
+    <p>
         <label for="besttime">Best Time to Call</label>
         <select name="besttime" id="besttime">
             <?php $landing_page->draw_besttime_options(); ?>
         </select>
-    <div class="clearfix"></div>
-   </div>
-    <h3 id="two" style="margin-top: 15px;">Pay with Credit or Debit Card</h3>
+    </p>
+    <h3 id="two">Enter your billing information - SECURE</h3>
 
-    <div class="form-group">
+    <p>
         <label for="card_name">Name on Credit Card</label>
         <input name="card_name" type="text" id="card_name" value="" />
-    <div class="clearfix"></div>
-   </div>
-    <div class="form-group">
+    </p>
+    <p>
         <label for="card_number">Credit Card Number</label>
         <input name="card_number" type="text" id="card_number" value="" />
-        <!--<strong class="secure">Secure</strong>-->
-
-    <div class="clearfix"></div>
-  </div>
-
-    <div class="form-group">
+        <!--<strong class="secure">Secure</strong>--></p>
+    <p>
         <label for="card_type">Credit Card Type</label>
         <select name="card_type" class="col1 cc_type" id="card_type">
             <?php $landing_page->draw_card_type_options(); ?>
         </select>
-    <div class="clearfix"></div>
-   </div>
-    <div class="form-group2">
+    </p>
+    <p>
         <label for="card_exp_mo">Expiration Date</label>
         <select name="card_exp_mo" id="card_exp_mo">
             <?php $landing_page->draw_card_month_options_short(); ?>
@@ -477,35 +379,23 @@ foreach ($price_arr as $val){
         <select name="card_exp_yr" id="card_exp_yr">
             <?php $landing_page->draw_card_year_options_short(); ?>
         </select>
-    <div class="clearfix"></div>
-   </div>
-    <div class="form-group">
+
+    </p>
+    <p>
         <label for="card_cvv">Card CVV#</label>
 
-        <input name="card_cvv" type="text" id="card_cvv" value="" style='width:80px;' />
-    <div class="clearfix"></div>
-   </div>
+        <input name="card_cvv" type="text" id="card_cvv" value="" style='width:50px;' />
+    </p>
 
-    <div class="formchakebox">
-        <input type="checkbox" name="iagreetoit" id="iagreetoit" value="Y"  class="css-checkbox"/>
-
-
-       <label for="iagreetoit" class="css-label"></label>
-
-        <span>I have read & agreed to the Terms & Conditions </span>
-
-
-
-
-        <div class="clearfix"></div>
+    <div style="font-size:12px;color:black;text-align:center;">
+        <input type="checkbox" name="iagreetoit" id="iagreetoit" value="Y" />
+        I agree to your Terms &amp; Conditions.
+        <br />
+        &nbsp;
     </div>
 <!--    <center><input type="submit" name="Submit" onclick="javascript:noPopup();" /></center>-->
 
-    <input type="button" value="RUSH MY ORDER" class="formsub_btn" onclick="formchkvalidate()">
+    <input type="submit" value="Submit">
 
-    <!--</fieldset>-->
+    </fieldset>
 </form>
-
-
-    </div>
-</div>

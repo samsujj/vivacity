@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'HelveticaNormal';
+    src: url('fonts/Helvetica-Normal.eot');
+    src: url('fonts/Helvetica-Normal.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Helvetica-Normal.woff') format('woff'),
+    url('fonts/Helvetica-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{ background: #fff; margin: 0; padding: 0;}
+
+.toplogoblock{background-color: #fff;  padding-bottom: 4px;  padding-top: 27px; position: relative;}
+.toplogoblock img{margin: 0 auto; max-width: 80% !important;}
+
+
+.success_wrapper h4 {
+    color: #333333;
+    font-family: "HelveticaNormal";
+    font-size: 24px;
+    margin: 0;
+    padding: 25px 0 30px;
+    text-align: center;
+}
+.success_wrapper h4 a {
+    color: #e22b67;
+    display: inline-block;
+    text-decoration: underline;
+}
+.success_wrapper h4 a:hover {
+    text-decoration: none;
+}

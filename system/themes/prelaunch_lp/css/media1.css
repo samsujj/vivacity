@@ -10,22 +10,50 @@
     .enrollmentblock4bgcontentrightcontent h3 {
         font-size: 21px;
     }
+    .enrollmentblock8bgcontentrightcontent h5 {
+        font-size: 20px;
+    }
+    .enrollmentblock6bgcontentrightcontent h4 {
+        padding: 10px 200px 0px 0%;
+    }
+    .enrollmentblock6bgcontentrightcontent p {
+        padding: 25px 200px 10px 2%;
+    }
+    .enrollmentblock6bgcontentrightcontent p.enrollmentblock6innercontent {
+        padding: 15px 200px 10px 5%;
+    }
+    .enrollmentblock6bgcontentrightcontent h5 {
+        padding: 15px 200px 0px 25%;
+    }
+    .enrollmentblock6bgcontentrightcontent h4 {
+        padding: 20px 200px 0px 0%;
+    }
 }
 
 @media only screen and (max-width: 1840px) {
     .enrollmentblock4bgcontentrightcontent h4 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .enrollmentblock4bgcontentrightcontent ul li {
         font-size: 18px;
     }
     .enrollmentblock4bgcontentrightcontent h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .enrollmentblock4bgcontentrightcontent p {
+        font-size: 18px;
+    }
+    .enrollmentblock6bgcontentrightcontent h5 {
+        padding: 15px 247px 0px 17%;
+    }
+    .enrollmentblock8bgcontentrightcontent h4 {
         font-size: 20px;
     }
+    .enrollmentblock8bgcontentrightcontent ul li {
+        font-size: 20px;
+    }
+
 }
 
 
@@ -34,7 +62,34 @@
     .enrollmentblock4bgimgwrapper img {
         margin-right: -100px;
     }
+    .enrollmentblock6bgcontentrightcontent h4 {
+        padding: 10px 200px 0px 0%;
+        font-size: 32px;
+    }
+    .enrollmentblock6bgcontentrightcontent p {
+        padding: 25px 200px 0px 3%;
+    }
+    .enrollmentblock6bgcontentrightcontent p.enrollmentblock6innercontent {
+        padding: 25px 200px 0px 7%;
+    }
+    .enrollmentblock6bgcontentrightcontent h5 {
+        font-size: 24px;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 {
+        font-size: 20px;
+    }
+}
 
+@media only screen and (max-width: 1760px) {
+    .enrollmentblock6bgcontentrightcontent p {
+        padding: 15px 200px 0px 3%;
+    }
+    .enrollmentblock6bgcontentrightcontent p.enrollmentblock6innercontent {
+        padding: 15px 200px 0px 7%;
+    }
+    .enrollmentblock6bgcontentrightcontent h5 {
+        padding: 5px 247px 0px 17%;
+    }
 }
 
 
@@ -45,6 +100,30 @@
     .enrollmentblock4bgcontentright {
         left: -90px;
     }
+    .enrollmentblock6bgcontentrightcontent p {
+        padding: 10px 200px 0px 3%;
+    }
+    .enrollmentblock6bgcontentrightcontent p.enrollmentblock6innercontent {
+        padding: 8px 200px 0px 7%;
+    }
+    .enrollmentblock6bgcontentrightcontent h5 {
+        padding: 8px 200px 0px 15%;
+    }
+    .enrollmentblock8bgcontentrightcontent h4 {
+         font-size: 18px;
+     }
+    .enrollmentblock8bgcontentrightcontent ul li {
+        font-size: 18px;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 br{
+        display: none;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 span {
+        font-size: 30px;
+    }
+    .enrollmentblock8bgcontentrightcontent h3 {
+        font-size: 21px;
+    }
 }
 
 @media only screen and (max-width: 1600px) {
@@ -54,9 +133,36 @@
     .enrollmentblock4bgimgwrapper img {
         margin-right: -210px;
     }
-
-
+    .enrollmentblock6bgcontentrightcontent h4 {
+        font-size: 28px;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 {
+        font-size: 17px;
+    }
+    .enrollmentblock8bgcontentrightcontent h4 {
+        font-size: 17px;
+    }
+    .enrollmentblock8bgcontentrightcontent ul li {
+        font-size: 17px;
+    }
+    .enrollmentblock6bgcontentrightcontent p {
+        font-size: 20px;
+    }
+    .enrollmentblock6bgcontentrightcontent p.enrollmentblock6innercontent {
+        font-size: 20px;
+    }
+    .enrollmentblock6bgcontentrightcontent h5 {
+        padding: 21px 200px 0px 10%;
+    }
 }
+
+
+@media only screen and (max-width: 1540px) {
+    .enrollmentblock6bgcontentrightcontent h5 {
+        font-size: 22px;
+    }
+}
+
 @media only screen and (max-width: 1500px) {
     .enrollmentblock4bgcontentrightcontent {
         padding: 24px 0 0 142px;
@@ -67,10 +173,64 @@
     .enrollmentblock5row1left {
         width: 67%;
     }
+    .enrollmentblock8bgcontentrightcontent h3 {
+        margin-bottom: 15px;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .enrollmentblock8bgcontentrightcontent h4 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .enrollmentblock8bgcontentrightcontent ul li {
+        font-size: 16px;
+        margin-bottom: 8px;
+     }
+    .enrollmentblock8bgcontentrightcontent p{
+        margin-bottom: 8px;
+    }
+    .enrollmentblock6bgcontentrightcontent p.enrollmentblock6innercontent {
+        font-size: 19px;
+    }
+    .enrollmentblock6bgcontentrightcontent p {
+        font-size: 19px;
+    }
+    .enrollmentblock6bgcontentrightcontent h5 {
+        font-size: 22px;
+    }
+    .enrollmentblock6bgcontentrightcontent h4 {
+        padding: 20px 200px 0px 0%;
+    }
+    .enrollmentblock8bgcontentrightcontent {
+        padding: 0px 6% 0px 24px;
+    }
 }
+
+@media only screen and (max-width: 1440px) {
+
+    .enrollmentblock6bgcontentrightcontent h5 {
+        font-size: 21px;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 br {
+        display: none;
+    }
+    .enrollmentblock8bgcontentrightcontent h3 {
+        font-size: 20px;
+    }
+}
+
+
 @media only screen and (max-width: 1400px) {
+    .enrollmentblock8bgcontentrightcontent {
+        padding: 0px 8% 0px 24px;
+    }
     .enrollmentblock4bgcontentrightcontent h4 {
-        font-size: 18px;
+        font-size: 17px;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 {
+        font-size: 15px;
     }
     .enrollmentblock4bgcontentrightcontent ul li {
         font-size: 16px;
@@ -81,7 +241,39 @@
     }
 
     .enrollmentblock4bgcontentrightcontent h3 {
-        font-size: 18px;
+        font-size: 17px;
+    }
+    .enrollmentblock8bgcontentright {
+        left: -78px;
+    }
+    .enrollmentblock8bgcontentrightcontent {
+        margin-left: 100px;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 span {
+        font-size: 23px;
+    }
+    .enrollmentblock8bgcontentrightcontent h4 {
+        margin-bottom: 12px;
+    }
+    .enrollmentblock8bgcontentrightcontent h4 {
+        margin-bottom: 15px;
+    }
+    .enrollmentblock8bgcontentrightcontent ul li {
+         margin-bottom: 15px;
+     }
+    .enrollmentblock8bgcontentrightcontent p {
+        margin-bottom: 15px;
+    }
+    .enrollmentblock5wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .enrollmentblock6bgcontentrightcontent h4 {
+        padding: 15px 200px 0px 0%;
+        font-size: 24px;
+    }
+    .enrollmentblock6bgcontentrightcontent h5 {
+        font-size: 19px;
     }
 }
 @media only screen and (max-width: 1366px) {
@@ -106,9 +298,42 @@
         position: relative;
     }
 
+    .enrollmentblock6bgcontentrightcontent h4 {
+        padding: 15px 200px 0px 0%;
+        font-size: 24px;
+    }
+    .enrollmentblock6bgcontentrightcontent h5 {
+        font-size: 19px;
+    }
+    .enrollmentblock5bgimgwrapper img {
+        margin-left: -74px;
+    }
 }
 
 @media only screen and (max-width: 1300px) {
+    .enrollmentblock8bgcontentrightcontent h3 {
+        font-size: 16px;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 span {
+        font-size: 23px;
+    }
+    .enrollmentblock8bgcontentrightcontent ul li {
+        margin-bottom: 2px;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 {
+        font-size: 15px;
+        line-height: 30px !important;
+    }
+    .enrollmentblock8bgcontentrightcontent {
+        padding: 0px 9% 0px 24px;
+        margin-left: 96px;
+    }
+    .enrollmentblock8bgcontentrightcontent h4 {
+        line-height: 22px;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 span {
+        font-size: 21px;
+    }
 }
 
 
@@ -119,10 +344,44 @@
     .enrollmentblock4bgcontentrightcontent h4 {font-size: 16px;}
     .enrollmentblock4bgcontentrightcontent h3 {font-size: 16px;}
     .enrollmentblock4bgcontentrightcontent{font-size: 16px;}
+    .enrollmentblock6bgcontentrightcontent p {
+        padding: 20px 200px 0px 3%;
+    }
+
+    .enrollmentblock6bgcontentrightcontent p.enrollmentblock6innercontent {
+        padding: 20px 200px 0px 7%;
+    }
+
+    .enrollmentblock6bgcontentrightcontent p.enrollmentblock6innercontent {
+        font-size: 18px;
+    }
+    .enrollmentblock6bgcontentrightcontent p {
+        font-size: 18px;
+    }
+    .enrollmentblock6bgcontentrightcontent h4 {
+        padding: 15px 200px 0px 0%;
+        font-size: 20px;
+    }
+    .enrollmentblock6bgcontentrightcontent h5 {
+        font-size: 17px;
+        line-height: 24px;
+    }
 }
 
 
 @media only screen and (max-width: 1199px){
+    .enrollmentblock5bgimgwrapper img {
+        margin-left: auto;
+    }
+    .enrollmentblock5bgimgwrapper img {
+        float: none;
+        width: 100%;
+    }
+    .enrollmentblock5bg {
+        height: auto;
+    }
+
+
     .enrollmentblock5row1left h3{
         background: none !important;
     }
@@ -259,9 +518,9 @@
     .enrollmentblock5row2 .enrollmentblock5row2left p {
         width: 100%;
     }
-  /*  .enrollmentblock5row2right img {
-        margin: 20px auto 0 auto;
-    }*/
+    /*  .enrollmentblock5row2right img {
+          margin: 20px auto 0 auto;
+      }*/
     .enrollmentblock5row2 {
         padding: 0;
         margin: 0;
@@ -289,16 +548,16 @@
         font-size: 20px;
     }
     .enrollmentblock4bgcontentrightcontent h4 {
-        font-size: 22px;
+        font-size: 21px;
     }
     .enrollmentblock4bgcontentrightcontent h3 {
-        font-size: 22px;
+        font-size: 21px;
     }
     .enrollmentblock4bgcontentrightcontent p {
         font-size: 20px;
     }
     .leftarrowdiv h3 {
-        padding: 0px 16px 6px 0px;
+        padding: 0px 0px 6px 0px;
         text-align: center;
     }
     .enrollmentblock5row1right .btnorange, .enrollmentblock5row2right .btnorange {
@@ -334,6 +593,179 @@
     .enrollmentblock5wrapper h2 {
         width: 70%;
     }
+
+
+
+
+
+
+    .enrollmentblock6bg {
+        height: auto;
+    }
+    .enrollmentblock6bgcontentleft {
+        position: inherit;
+        top: 0px;
+    }
+    .enrollmentblock6bgcontentright {
+        position: inherit !important;
+        top: 0px;
+        right: 0px;
+        -ms-transform: skew(0deg, 0deg);
+        /* IE 9 */
+        -webkit-transform: skew(0deg, 0deg);
+        /* Chrome, Safari, Opera */
+        transform: skew(0deg, 0deg);
+        height: auto;
+    }
+    .enrollmentblock6bgcontentleft{
+        position: inherit;
+        height: 0px;
+        display: none;
+    }
+    .enrollmentblockbgimgwrapper img{
+        width:100% !important;
+        float: none;
+    }
+
+    .enrollmentblock6bgcontentright .enrollmentblock6bgcontentrightcontent {
+        -ms-transform: skew(0deg, 0deg);
+        -webkit-transform: skew(0deg, 0deg);
+        transform: skew(0deg, 0deg);
+        display: block;
+        text-align: center;
+    }
+    .enrollmentblock6bgimgwrapper {
+        float: none;
+        text-align: center;
+        margin-left: 0px;
+        position: inherit;
+    }
+
+    .enrollmentblock6bg .pull-right {
+        float: none;
+    }
+    .enrollmentblock6bgcontentrightcontent h4 {
+        padding: 0px 15px 15px;
+        font-size:30px;
+    }
+    .enrollmentblock6bgcontentrightcontent p {
+        padding: 0px 15px;
+        font-size: 22px;
+    }
+    .enrollmentblock6bgcontentrightcontent p.enrollmentblock6innercontent {
+        padding: 15px;
+        font-size: 22px;
+    }
+    .enrollmentblock6 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .enrollmentblock6bgcontentrightcontent h5 {
+        padding: 0px 15px;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+
+    .enrollmentblock6bgcontentright .enrollmentblock6bgcontentrightcontent {
+        -ms-transform: skew(0deg, 0deg);
+        -webkit-transform: skew(0deg, 0deg);
+        transform: skew(0deg, 0deg);
+    }
+    .enrollmentblock6bgcontentrightcontent h2 {
+        padding: 30px 15px 0px 15px;
+    }
+
+
+    .enrollmentblock8bgimgwrapper img {
+        float: none;
+        width: 100%;
+    }
+    .enrollmentblock8bgimgwrapper img {
+        margin: 0;
+    }
+    .enrollmentblock8bgcontentright {
+        position: inherit !important;
+        top: 0px !important;
+        left: 0px !important;
+        height: auto !important;
+        transform: skew(0deg, 0deg);
+        width: 100% !important;
+    }
+    .enrollmentblock8bgcontentright .enrollmentblock8bgcontentrightcontent {
+        transform: skew(0deg, 0deg);
+        display: inline-block;
+        text-align: center;
+    }
+    .enrollmentblock8bgcontentrightcontent {
+        padding: 0 10px;
+    }
+    .enrollmentblock8bg {
+        height: auto;
+    }
+    .enrollmentblock8bgcontentleft{
+        display: none;
+    }
+    .enrollmentblock8bgcontentrightcontent::before {
+        background-image:none;
+    }
+    .enrollmentblock8bgcontentrightcontent h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .enrollmentblock8bgcontentrightcontent h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .enrollmentblock8bgcontentrightcontent ul li {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 {
+        font-size: 23px;
+        line-height: 25px;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 span {
+        font-size: 30px;
+    }
+    .enrollmentblock8bgimgwrapper .btnorange1, .enrollmentblock8bgimgwrapper .btnorange1:hover {
+        margin: 0px auto 0px auto;
+        float: none;
+        margin-top: -110px !important;
+        float: none;
+        display: block;
+        bottom: 0px;
+        right: 0px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .enrollmentblock8bgcontentrightcontent {
+        margin-left: auto;
+    }
+
+    .enrollmentblock5bgimgwrapper .btnorange1 {
+        margin: 0px auto 0px auto;
+        float: none;
+        margin-top: -110px !important;
+        float: none;
+        display: block;
+        bottom: 0px;
+        right: 0px;
+        position: relative;
+        margin-bottom: 30px;
+        width: 247px;
+    }
+    .ad_marketingblock_text {
+        width: 94%;
+        margin: 0 auto;
+    }
+    .leftarrowdiv {
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 
@@ -358,6 +790,10 @@
         font-size: 29px;
         line-height: normal;
     }
+    .enrollmentblock5 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
 
 @media only screen and (max-width: 660px) {
@@ -368,6 +804,37 @@
     .enrollmentblock5wrapper h2 {
         width:72%;
         font-size: 28px;
+    }
+    .btngreen, .btngreen:hover {
+        font-size: 20px !important;
+        padding: 5px 30px 7px 30px !important;
+    }
+    .footer_div2 span{
+        display: block;
+    }
+    .footer_div2 span {margin-left: auto; margin-top: 10px;}
+    .enrollmentblock5wrapper h2 {
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+    }
+    .enrollmentblock5wrapper h2 span {
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+        display: block;
+        padding: 0 5px;
+    }
+    .btnorange1, .btnorange1:hover{
+        left:0 !important;
+    }
+    .enrollmentblock8bgimgwrapper .btnorange1, .enrollmentblock8bgimgwrapper .btnorange1:hover {
+        font-size: 24px !important;
+        padding: 6px 20px 10px 20px !important;
+        width: 200px;
+    }
+    .enrollmentblock5bgimgwrapper .btnorange1, .enrollmentblock5bgimgwrapper .btnorange1:hover{
+        font-size: 24px !important;
+        padding: 6px 20px 10px 20px !important;
+        width: 200px;
     }
 }
 
@@ -395,6 +862,7 @@
     .btnorange1, .btnorange1:hover{
         font-size: 28px !important;
     }
+
 }
 
 @media only screen and (max-width: 460px) {
@@ -406,7 +874,6 @@
     }
     .enrollmentblock4bgimgwrapper img {
         float: right;
-        margin-right: -530px;
     }
     .enrollmentblock5row1right img {
         margin: 0px auto 0 auto;
@@ -422,17 +889,18 @@
     .btnorange1, .btnorange1:hover {
         font-size: 26px;
         padding: 10px 20px 10px 20px;
+        left: 0px;
     }
-    .btnorange1, .btnorange1:hover{
-        font-size: 22px !important;
-    }
-
 
     .enrollmentblock5row2 .enrollmentblock5row2left h1 {
         font-size: 400%;
     }
     .enrollmentblock5row1 .enrollmentblock5row1left h1 {
         font-size: 400%;
+    }
+    .btngreen, .btngreen:hover {
+        font-size: 12px !important;
+        padding: 5px 18px 7px 18px !important;
     }
 }
 
@@ -657,7 +1125,7 @@
         transform: skewX(20deg);}
 
 
-    .ad_titlebar2{ padding-bottom:12px!important; margin-bottom:0px!important;}
+    .ad_titlebar2{ padding-bottom:18px!important; margin-bottom:0px!important;}
 
     h2.ad_titlebar2 {
         margin-bottom: 0 !important;
@@ -683,7 +1151,21 @@
     }
 
     .ad_banner_block{ background:url(../images/bannerimg_mobile.jpg) no-repeat center top; width:100%; background-size:800px; padding:330px 0 0 0;  }
-
+    .titlebar {
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+    }
+    .titlebar span {
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+        display: block;
+    }
+    .enrollmentblock6bgcontentrightcontent h4 {
+        font-size: 26px;
+    }
+    .enrollmentblock8bgcontentrightcontent ul{
+        text-align: left;
+    }
 
 }
 
@@ -726,7 +1208,33 @@
     }
 
     .ad_titlebar2 span{ padding:0px!important;}
-    .topsumbbtn{ width:260px;  font-size: 20px;}
+    .topsumbbtn{ width:260px; font-size: 18px !important;}
 }
 
 
+
+
+
+@media only screen and (max-width:1260px) {
+    .ad_marketingblock{ width:1190px!important; margin:0 auto!important; padding:0px!important;}
+
+    .ad_marketingblock_textwrapper{  padding:30px 455px 0 0px;}
+
+    .ad_marketingblock_text ul li{ font-size:18px; padding-top:2px; padding-bottom:2px;}
+    .ad_marketingblock_text h4{ font-size:30px; line-height:40px; margin:40px 0 0 40px;}
+
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .ad_marketingblock{ width:94%!important; margin:0 auto!important; padding:0px!important;}
+
+    .ad_marketingblock_textwrapper{ margin-top:30px; background:url(../images/new_blockimg1.png) no-repeat center bottom; min-height:inherit; padding:0 0 300px 0px; background-size:280px;}
+
+    .ad_marketingblock_text ul{ background:none; padding:0px 15px;}
+
+    .ad_marketingblock_text ul li{ text-align:center;  background:url(../images/new_block_bg1.png) no-repeat center top;  font-family: "HelveticaNormal"; font-size:22px; padding:30px 0 10px 0;}
+
+    .ad_marketingblock_text h4{ font-size:32px;  line-height:40px; text-align:center; margin:20px 0 0 0;}
+
+}

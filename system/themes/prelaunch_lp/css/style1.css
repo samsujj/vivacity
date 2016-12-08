@@ -316,7 +316,7 @@ h2.titlebar::before{
     left: -20px;
     top: 0;
 }
- h2.titlebar::after{
+h2.titlebar::after{
     content: "";
     width: 10px;
     height: 100%;
@@ -404,11 +404,11 @@ amitava css
 .ad_banner_text3 a:hover{ text-decoration:underline;}
 
 .ad_bannertext_wrapper .ad_form_right{ width:386px; float:right; margin-right:-100px; position:relative;  background:#44515d url(../images/bannerformbg.png) no-repeat center bottom; background-size:100%; transform-origin: right bottom;
-    transform: skewY(-11deg); border-left:solid 1px #fff; margin-top:10px; -webkit-box-shadow: 10px 10px 10px -6px rgba(0,0,0,0.53);
+    transform: skewY(-5deg); border-left:solid 1px #fff;margin-top: 30px; -webkit-box-shadow: 10px 10px 10px -6px rgba(0,0,0,0.53);
     -moz-box-shadow: 10px 10px 10px -6px rgba(0,0,0,0.53);
     box-shadow: 10px 10px 10px -6px rgba(0,0,0,0.53);  }
 
-.ad_bannertext_wrapper .ad_form_right .formwrapper{ width:100%;  transform: skewY(11deg); padding-bottom:25px; }
+.ad_bannertext_wrapper .ad_form_right .formwrapper{ width:100%;  transform: skewY(5deg); padding-bottom:15px; }
 
 
 .ad_bannertext_wrapper .ad_form_right .formwrapper h2{
@@ -419,7 +419,7 @@ amitava css
     background: -o-linear-gradient(top, rgba(229,142,1,1) 0%, rgba(235,118,1,1) 100%);
     background: -ms-linear-gradient(top, rgba(229,142,1,1) 0%, rgba(235,118,1,1) 100%);
     background: linear-gradient(to bottom, rgba(229,142,1,1) 0%, rgba(235,118,1,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e58e01', endColorstr='#eb7601', GradientType=0 ); margin:-38px 0 0 0; text-align:center; padding:5px 10px; font-size:32px; color:#fff;  font-family: 'OpenSansBold'; letter-spacing:-1px;  text-shadow: 0 0 5px #151515; line-height:36px; margin-bottom:30px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e58e01', endColorstr='#eb7601', GradientType=0 ); margin:-38px 0 0 0; text-align:center; padding:5px 10px; font-size:30px; color:#fff;  font-family: 'OpenSansBold'; letter-spacing:-1px;  text-shadow: 0 0 5px #151515; line-height:36px; margin-bottom:30px;font-style: italic;
 }
 
 .ad_bannertext_wrapper .ad_form_right .formwrapper h2 span{ font-style:italic; text-transform:uppercase;  font-family: 'open_sansextrabold';}
@@ -505,9 +505,9 @@ amitava css
 .ad_banner_bottom_text_wrapper .ad_blck2_textleft{ width:755px; float:left; background:url(../images/banner_bottom_img2.png) repeat-y left center ; padding:0 0 0 20px; font-family: "RalewayBlack"; font-size:36px; color:#1a2837; text-transform:uppercase; line-height:46px; margin-top:165px;}
 
 .ad_banner_bottom_text_wrapper .ad_blck2_textleft span{ color:#ec0143;}
-.ad_banner_bottom_text_wrapper  .ad_blck2_imgright{ width:489px; float:right; margin-top:25px;}
+.ad_banner_bottom_text_wrapper  .ad_blck2_imgright{ width:489px; float:right; margin-top:0px;}
 
-.ad_banner_bottom_text_wrapper h3{  font-family: "HelveticaNormal"; font-size:21px; color:#3d4955; line-height:36px; margin:0; padding:15px 0 10px 0;}
+.ad_banner_bottom_text_wrapper h3{  font-family: "HelveticaNormal"; font-size:21px; color:#3d4955; line-height:36px; margin:0; padding:5px 0 10px 0;}
 
 .ad_banner_bottom_text_wrapper h3 strong{ color:#aad33a; text-transform:uppercase;}
 .ad_toptitleblock2{ width:100%; margin-bottom: 50px !important;}
@@ -659,23 +659,25 @@ h2.ad_titlebar2::after{
 .leftarrowdiv h3{
     color: #fff;
     font-family: "RalewayBlack";
-    font-size: 35px;
+    font-size: 36px;
     line-height: 42px;
     margin: 0;
     padding: 6px 16px 0 0;
     text-align: left;
-    text-shadow: 1px 1px 5px #333333;
+    text-shadow: 0px 1px 3px #333333;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .enrollmentblock4bgcontentrightcontent h4{
     color: #fff;
     font-family: "RalewayBlack";
-    font-size: 24px;
+    font-size: 22px;
     margin: 0;
     margin-top: 120px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 .enrollmentblock4bgcontentrightcontent ul{
     list-style-type: none;
@@ -723,11 +725,12 @@ h2.ad_titlebar2::after{
 .enrollmentblock4bgcontentrightcontent h3{
     color: #fff;
     font-family: "RalewayBlack";
-    font-size: 24px;
+    font-size: 22px;
     margin: 0;
     margin-top: 0px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 
@@ -736,12 +739,17 @@ h2.ad_titlebar2::after{
 
 
 /*------enrollmentblock5--------*/
-.enrollmentblock5{padding-top: 48px; padding-bottom: 48px;}
+.enrollmentblock5{padding-top: 48px; padding-bottom: 8px;}
 .enrollmentblock5wrapper{
     width: 1250px;
     margin: 0 auto;
 }
 
+.enrollmentblock5bg{height:509px; position: relative !important; overflow: hidden; width:100%; padding: 0px;}
+
+.enrollmentblock5bgimgwrapper img{
+    float: left;
+}
 
 .enrollmentblock5wrapper h2 {
     -webkit-box-sizing: content-box;
@@ -871,7 +879,7 @@ h2.ad_titlebar2::after{
 .enrollmentblock5row1left{ position: relative; left: 0px; }
 .enrollmentblock5row1right { position: relative; right: 0px; }
 .enrollmentblock5row1left {z-index: 1;width: 62%; padding-top: 20px; }
-.enrollmentblock5row1right {z-index: 0;  top: 0; right: -240px; position: absolute;}
+.enrollmentblock5row1right {z-index: 0;  top: -13px; right: -240px; position: absolute;}
 /*.enrollmentblock5row1right img{margin: 0 385px 0px;}*/
 
 .enrollmentblock5row1left h1 {
@@ -890,15 +898,15 @@ h2.ad_titlebar2::after{
     position: relative;
     z-index: 2;
 
-   /* background: linear-gradient(180deg, #f8507e 0%, #e5094e 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
-    position: relative;
-    z-index: 2;
-    background-color: rgb(186, 186, 186);
-    text-shadow: rgb(224, 224, 224) 1px 1px 0px;
-    */
+    /* background: linear-gradient(180deg, #f8507e 0%, #e5094e 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-transform: uppercase;
+     position: relative;
+     z-index: 2;
+     background-color: rgb(186, 186, 186);
+     text-shadow: rgb(224, 224, 224) 1px 1px 0px;
+     */
 
 }
 
@@ -1053,6 +1061,7 @@ h2.ad_titlebar2::after{
     position: absolute;
     bottom: 40px;
     left: 40px;
+    z-index: 16;
 }
 
 .enrollmentblock6rowright .btnorange1{
@@ -1072,7 +1081,7 @@ h2.ad_titlebar2::after{
 .enrollmentblock5row2left { position: relative; left: 0px; }
 .enrollmentblock5row2right { position: relative; right: 0px; }
 .enrollmentblock5row2left { z-index: 1;width: 80%; padding-top: 20px; }
-.enrollmentblock5row2right {z-index: 0; top: 155px; right: -150px; position: absolute;}
+.enrollmentblock5row2right {z-index: 0; top: 124px; right: -150px; position: absolute;}
 /*.enrollmentblock5row2right img{margin: 0 385px 0px;}*/
 
 .enrollmentblock5row2left h1 {
@@ -1164,7 +1173,7 @@ h2.ad_titlebar2::after{
     position:absolute !important;
     top: 0px;
     right: -170px;
-    height: 510px;
+    height: 512px;
     background: #0daade;
     padding: 20px;
     -ms-transform: skew(20deg, 0deg);
@@ -1208,17 +1217,237 @@ h2.ad_titlebar2::after{
     font-family: "RalewayBlack";
     font-size: 35px;
     margin: 0;
-    padding: 10px 176px 0px 5%;
-    text-shadow: rgba(140, 140, 140, 0.5) 5px 5px 3px;
+    padding: 10px 180px 0px 2%;
+    text-shadow: rgba(0, 0, 0, 0.6) 0px 2px 0px;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-.enrollmentblock6bgcontentrightcontent p{
+.enrollmentblock6bgcontentrightcontent p {
     color: #fff;
     font-family: "HelveticaNormal";
-    font-size: 18px;
+    font-size: 22px;
     margin: 0;
-    padding: 24px 176px 0px 10%;
+    padding: 25px 250px 10px 5%;
+}
+
+.enrollmentblock6bgcontentrightcontent p.enrollmentblock6innercontent {
+    color: #fff;
+    font-family: "HelveticaNormal";
+    font-size: 22px;
+    margin: 0;
+    padding: 15px 247px 10px 10%;
 }
 
 
+.enrollmentblock6bgcontentrightcontent h5{
+    color: #fff;
+    font-family: "RalewayBlack";
+    font-size: 24px;
+    margin: 0;
+    padding: 15px 247px 0px 21%;
+    text-shadow: rgba(0, 0, 0, 0.6) 0px 2px 3px;
+    text-transform: uppercase;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+
+
+/*----enrollmentblock8 css----*/
+.enrollmentblock8{padding-top: 0px; padding-bottom: 0px; position: relative !important;}
+.enrollmentblock8bg{height:509px; position: relative !important; overflow: hidden; width:100%; padding: 0px;}
+
+.enrollmentblock8bgimgwrapper img{
+    float: right;
+}
+.enrollmentblock8bgcontentright{
+    position:absolute !important;
+    top: 0px;
+    left: -124px;
+    height: 510px;
+    background: #4c8602;
+    padding: 20px;
+    -ms-transform: skew(20deg, 0deg);
+    /* IE 9 */
+    -webkit-transform:skew(20deg, 0deg);
+    /* Chrome, Safari, Opera */
+    transform: skew(20deg, 0deg);
+}
+
+.enrollmentblock8bgcontentrightcontent{
+    -ms-transform: skew(-20deg, 0deg);
+    /* IE 9 */
+    -webkit-transform: skew(-20deg, 0deg);
+    /* Chrome, Safari, Opera */
+    transform: skew(-20deg, 0deg);
+}
+
+.enrollmentblock8bgcontentleft{position: absolute !important;
+    top: 0px;
+    height: 510px;
+    background: rgba(0, 0, 0, 0.2) no-repeat;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    right: -230px;
+}
+
+.enrollmentblock8bgcontentrightcontent{
+    padding: 0px 5% 0px 24px;
+    margin-left: 151px;
+    position: relative;
+}
+
+.enrollmentblock8bgcontentrightcontent:before{
+    background-image: -webkit-linear-gradient(top, #4c8602 0%,#4c8602 10%,#284701 10%,#284701 90%,#4c8602 90%,#4c8602 100%);
+    background-image: -moz-linear-gradient(top, #4c8602 0%,#4c8602 10%,#284701 10%,#284701 90%,#4c8602 90%,#4c8602 100%);
+    background-image: -ms-linear-gradient(top, #4c8602 0%,#4c8602 10%,#284701 10%,#284701 90%,#4c8602 90%,#4c8602 100%);
+    background-image: -o-linear-gradient(top, #4c8602 0%,#4c8602 10%,#284701 10%,#284701 90%,#4c8602 90%,#4c8602 100%);
+    background-image: linear-gradient(to bottom, #4c8602 0%,#4c8602 10%,#284701 10%,#284701 90%,#4c8602 90%,#4c8602 100%);
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+}
+
+
+.enrollmentblock8bgimgwrapper .btnorange1, .enrollmentblock8bgimgwrapper .btnorange1:hover {
+    background: #fea718 !important;
+    background-image: -webkit-linear-gradient(top, #fea718, #ff4200) !important;
+    background-image: -moz-linear-gradient(top, #fea718, #ff4200) !important;
+    background-image: -ms-linear-gradient(top, #fea718, #ff4200) !important;
+    background-image: -o-linear-gradient(top, #fea718, #ff4200) !important;
+    background-image: linear-gradient(to bottom, #fea718, #ff4200) !important;
+    -webkit-border-radius: 40px !important;
+    -moz-border-radius: 40px !important;
+    border-radius: 40px !important;
+    font-family: "RobotoBlack";
+    color: #ffffff !important;
+    font-size: 38px !important;
+    padding: 6px 30px 10px 30px !important;
+    border: solid #fff 2px !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4) !important;
+    font-style: italic;
+    white-space: normal !important;
+    -webkit-box-shadow: 0px 1px 6px rgba(50, 50, 50, 1) !important;
+    -moz-box-shadow:    0px 1px 6px rgba(50, 50, 50, 1) !important;
+    box-shadow:         0px 1px 6px rgba(50, 50, 50, 1) !important;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 247px;
+}
+
+.enrollmentblock8bgimgwrapper .btnorange1{
+    text-align: center;
+    margin: -32px 0px 0px auto;
+    float: right;
+    z-index: 15;
+    white-space: normal !important;
+}
+
+.enrollmentblock8bgcontentrightcontent h3{
+    color: #fff;
+    font-family: "RalewayBlack";
+    font-size: 22px;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.enrollmentblock8bgcontentrightcontent h4{
+    color: #deff00;
+    font-family: "HelveticaNormal";
+    font-size: 22px;
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.enrollmentblock8bgcontentrightcontent p{
+    color: #fff;
+    font-family: "HelveticaNormal";
+    font-size: 22px;
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.enrollmentblock8bgcontentrightcontent ul li{
+    color: #fff;
+    font-family: "HelveticaNormal";
+    font-size: 22px;
+    margin: 0;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.enrollmentblock8bgcontentrightcontent h5{
+    color: #dbff01;
+    font-family: "RalewayExtraBold";
+    font-size: 22px;
+    margin: 0;
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.enrollmentblock8bgcontentrightcontent h5 span {
+    color: #fff;
+    font-size: 36px;
+    padding-top: 1px;
+}
+
+
+
+
+
+
+.ad_marketingblock{ width:1250px!important; margin:0 auto!important; padding:0px!important;}
+.ad_titlebar2{ text-shadow:0 0 5px #2d2d2d;  }
+
+.ad_marketingblock_textwrapper{ margin-top:30px; background:url(../images/new_blockimg1.png) no-repeat right bottom; min-height:395px; padding:30px 455px 0 40px;}
+
+
+.ad_marketingblock_text{ width:100%;}
+
+.ad_marketingblock_text ul{ background:url(../images/new_block_bg2.png) repeat-y left center; padding:0 0 0 35px;}
+
+.ad_marketingblock_text ul li{ list-style:none; background:url(../images/new_block_bg1.png) no-repeat left top;  font-family: "HelveticaNormal"; font-size:22px; color:#1c1c1c; padding:0 0 0 58px; margin-bottom:15px;}
+
+.ad_marketingblock_text ul li span{ color:#e22b67;}
+
+.ad_marketingblock_text ul li:last-child{ margin-bottom:0px;}
+
+.ad_marketingblock_text h4{ font-size:32px; color:#02a62e; font-family: 'RalewayBold'; text-transform:uppercase; line-height:40px; margin:20px 0 20px 40px;}
+
+
+
+.ad_footerblock{padding-top: 25px; padding-bottom: 25px;}
+.footer_div1{padding-bottom: 15px}
+.footer_div2 a, .footer_div2 span{color: #191919; font-family: "OpenSansSemibold"; font-size: 12px;  margin: 0; line-height: 16px; text-decoration: none;}
+.footer_div2 span {margin-left: 35px;}
+.footer_div2 a:hover{text-decoration: none;color: #e22b67;}
+/*.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}*/
+
+
+/*
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.col-*{
+    margin-right: 0px;
+    margin-left: 0px;
+}*/
