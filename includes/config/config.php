@@ -33,8 +33,8 @@
 			
 			//!!!!!!! ALSO SET RewriteBase IN .htaccess !!!!!!!!!!
 			//URLS (Full URL and Path to application with trailing slash)
-			$AI->set_setting( 'DEFAULT_HTTP_URL', 'http://saturn.apogeehost.com/~vivacity/' );
-			$AI->set_setting( 'DEFAULT_HTTPS_URL', 'https://saturn.apogeehost.com/~vivacity/' );
+			$AI->set_setting( 'DEFAULT_HTTP_URL', 'http://www.vivacitygo.com/' );
+			$AI->set_setting( 'DEFAULT_HTTPS_URL', 'https://www.vivacitygo.com/' );
       		//!!!!!!! ALSO SET RewriteBase IN .htaccess !!!!!!!!!!
 			
 			//SSL

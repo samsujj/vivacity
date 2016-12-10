@@ -11,7 +11,7 @@
         font-size: 21px;
     }
     .enrollmentblock8bgcontentrightcontent h5 {
-        font-size: 20px;
+        font-size: 19px;
     }
     .enrollmentblock6bgcontentrightcontent h4 {
         padding: 10px 200px 0px 0%;
@@ -76,9 +76,11 @@
         font-size: 24px;
     }
     .enrollmentblock8bgcontentrightcontent h5 {
-        font-size: 20px;
+        font-size: 19px;
     }
 }
+
+
 
 @media only screen and (max-width: 1760px) {
     .enrollmentblock6bgcontentrightcontent p {
@@ -89,6 +91,9 @@
     }
     .enrollmentblock6bgcontentrightcontent h5 {
         padding: 5px 247px 0px 17%;
+    }
+    .enrollmentblock8bgcontentrightcontent h5 {
+        font-size: 18px;
     }
 }
 
@@ -122,7 +127,7 @@
         font-size: 30px;
     }
     .enrollmentblock8bgcontentrightcontent h3 {
-        font-size: 21px;
+        font-size: 20px;
     }
 }
 
@@ -366,10 +371,52 @@
         font-size: 17px;
         line-height: 24px;
     }
+    .enrollmentblock8bgcontentrightcontent h5 {
+        font-size: 15px;
+        line-height: 20px !important;
+    }
 }
 
 
 @media only screen and (max-width: 1199px){
+    .enrollmentblock5wrapper h2{
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+    }
+    .enrollmentblock5wrapper h2 span {
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+    }
+
+    .ad_titlebar2{
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+    }
+    .ad_titlebar2 span {
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+    }
+
+    .row.widgrow{
+        margin-right: 0px;
+        margin-left: 0px
+    }
+    .titlebar{
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+    }
+    .titlebar span{
+        -webkit-transform: skewX(0deg);
+        transform: skewX(0deg);
+    }
+
+
+    .toptitleblock .row{ margin-right: 0px !important; margin-left: 0px !important;}
+    .toptitleblock .row .col-lg-12.col-md-12.col-sm-12.col-xs-12{padding-right: 0px !important; padding-left: 0px !important;}
+
+
+
+
     .enrollmentblock5bgimgwrapper img {
         margin-left: auto;
     }
@@ -397,11 +444,12 @@
     }
 
     .titlebar {
-        width: 89%;
+        width: 90%;
     }
-    .enrollmentblock5wrapper {
-        width:89%;
-    }
+
+
+
+
     .btngreen, .btngreen:hover {
         font-size: 24px;
     }
@@ -499,7 +547,7 @@
 
 
     .enrollmentblock5row2right img {
-        margin: 24px auto;
+        margin: 24px auto 7px auto;
     }
     .enrollmentblock5row2left, .enrollmentblock5row2right {
         position: inherit;
@@ -590,13 +638,19 @@
     .enrollmentblock5wrapper h5 {
         font-size: 42px;
     }
-    .enrollmentblock5wrapper h2 {
-        width: 70%;
+
+
+
+    .enrollmentblock5bg{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
     }
-
-
-
-
+    .ad_bannertext_wrapper .ad_form_right {
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.53);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.53);
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.53);
+        border-left: none;
+    }
 
 
     .enrollmentblock6bg {
@@ -761,9 +815,13 @@
         margin: 0 auto;
     }
     .leftarrowdiv {
-        width: 94%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .container-fluid.ad_banner_block{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
     }
 
 }
@@ -771,11 +829,9 @@
 
 @media only screen and (max-width: 991px) {
     .titlebar {
-        width: 80%;
+        width: 84%;
     }
-    .enrollmentblock5wrapper {
-        width:80%;
-    }
+
     .feelrefresh {
         width: 100%;
     }
@@ -798,11 +854,10 @@
 
 @media only screen and (max-width: 660px) {
     .titlebar {
-        width:72%;
+        width:80%;
         font-size:28px;
     }
     .enrollmentblock5wrapper h2 {
-        width:72%;
         font-size: 28px;
     }
     .btngreen, .btngreen:hover {
@@ -840,11 +895,10 @@
 
 @media only screen and (max-width: 500px) {
     .titlebar {
-        width:64%;
+        width:70%;
         font-size: 26px;
     }
     .enrollmentblock5wrapper h2 {
-        width: 70%;
         font-size: 20px;
     }
     .enrollmentblock5row1 .enrollmentblock5row1left h1 {
@@ -924,7 +978,15 @@
    amitava css
    ========================================================================== */
 
+@media only screen and (max-width: 1920px) {
+    .ad_banner_bottom_text_wrapper {
+        margin-top: 50px;
+    }
 
+    .ad_banner_bottom_text_wrapper .ad_blck2_textleft{
+        margin-top: 150px;
+    }
+}
 
 @media only screen and (max-width: 1860px) {
 
@@ -941,12 +1003,16 @@
     .ad_banner_block{ background:url(../images/bannerimg.png) no-repeat -120px top; width:100%; background-size:1920px; }
 
 
+
+
 }
 
 
 @media only screen and (max-width: 1600px) {
 
     .ad_banner_block{ background:url(../images/bannerimg.png) no-repeat -180px top; width:100%; background-size:1920px; }
+
+
 
 
 }
@@ -1036,7 +1102,7 @@
 
     .ad_bannertext_wrapper .ad_text_left .ad_banner_text2 .addivblick{ font-size:30px;}
 
-    .ad_banner_text3{ margin:50px  auto; width:96%; border-left:none; padding:0; font-size:20px; color:#1a1a1a;  line-height:30px; text-align:center; padding-top:25px;}
+    .ad_banner_text3{ margin:50px  auto; width:94%; border-left:none; padding:0; font-size:20px; color:#1a1a1a;  line-height:30px; text-align:center; padding-top:25px;}
 
     .ad_bannertext_wrapper .ad_form_right{ width:80%; margin:0 auto; float:none; transform-origin: right bottom;
         transform: skewY(-0deg);}
@@ -1056,7 +1122,7 @@
     .ad_banner_bottom_text_wrapper  .ad_blck2_imgright{ width:100%; float:none;}
     .ad_banner_bottom_text_wrapper  .ad_blck2_imgright img{ max-width:100%; display:block; margin:0 auto;}
 
-    .ad_banner_bottom_text_wrapper h3{ text-align:center; padding-bottom:24px;  padding-top: 36px;}
+    .ad_banner_bottom_text_wrapper h3{ text-align:center; padding-bottom:24px;  padding-top: 36px;width: 94%; margin-left: auto; margin-right: auto;}
 
     .ad_titlebar2{text-align:center;}
 }
@@ -1088,36 +1154,37 @@
 
 @media only screen and (max-width:1024px) {
 
-    .ad_toptitleblock2{ width:90%;}
+  /*  .ad_toptitleblock2{ width:90%;}*/
 
 }
 
 @media only screen and (max-width:880px) {
 
-    .ad_toptitleblock2{ width:80%;}
+   /* .ad_toptitleblock2{ width:80%;}*/
 
 }
 
 @media only screen and (max-width:800px) {
 
-    .ad_toptitleblock2{ width:78%;}
+  /*  .ad_toptitleblock2{ width:78%;}*/
 
 }
 
 @media only screen and (max-width:770px) {
 
-    .ad_toptitleblock2{ width:80%;}
+    /*.ad_toptitleblock2{ width:80%;}*/
     .ad_titlebar2 {
         font-size: 25px;
+        line-height: normal;
     }
 
 }
 
 
-@media only screen and (max-width:730px) {
+/*@media only screen and (max-width:730px) {
 
     .ad_toptitleblock2{ width:70%;}
-}
+}*/
 
 @media only screen and (max-width:650px) {
 
@@ -1138,7 +1205,6 @@
         transform: skewX(0deg);
     }
     .ad_toptitleblock2 {
-        width: 90%;
         padding: 0;
         margin: 0 15px;
         -webkit-transform: skewX(0deg);
@@ -1150,7 +1216,7 @@
         transform: skewX(0deg);
     }
 
-    .ad_banner_block{ background:url(../images/bannerimg_mobile.jpg) no-repeat center top; width:100%; background-size:800px; padding:330px 0 0 0;  }
+    .ad_banner_block{ background:url(../images/bannerimg_mobile.jpg) no-repeat center top; width:100%; background-size:800px; padding:330px 0 0 0 !important;  }
     .titlebar {
         -webkit-transform: skewX(0deg);
         transform: skewX(0deg);
@@ -1164,24 +1230,20 @@
         font-size: 26px;
     }
     .enrollmentblock8bgcontentrightcontent ul{
-        text-align: left;
+        text-align: center;
+        width: 84%;
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
     }
-
-}
-
-
-
-@media only screen and (max-width:620px) {
-    .ad_toptitleblock2{ width:88%;}
-}
-
-@media only screen and (max-width:560px) {
-    .ad_toptitleblock2{ width:86%;}
+    .ad_titlebar2 {
+        width: initial !important;
+    }
 }
 
 @media only screen and (max-width:480px) {
     .ad_toptitleblock2 {
-        width: 84%;
         font-size: 22px;
     }
 
@@ -1189,22 +1251,14 @@
     .ad_bannertext_wrapper .ad_text_left .ad_banner_text1 img{ display:block; margin:0 auto;}
 }
 
-@media only screen and (max-width:440px) {
-    .ad_toptitleblock2{ width:80%;}
-}
 
-
-@media only screen and (max-width:380px) {
-    .ad_toptitleblock2{ width:78%;}
-}
 
 @media only screen and (max-width:360px) {
     .ad_toptitleblock2 {
-        width: 76%;
         font-size: 20px;
     }
     .ad_titlebar2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .ad_titlebar2 span{ padding:0px!important;}
@@ -1227,6 +1281,7 @@
 
 
 @media only screen and (max-width: 1199px) {
+
     .ad_marketingblock{ width:94%!important; margin:0 auto!important; padding:0px!important;}
 
     .ad_marketingblock_textwrapper{ margin-top:30px; background:url(../images/new_blockimg1.png) no-repeat center bottom; min-height:inherit; padding:0 0 300px 0px; background-size:280px;}
@@ -1238,3 +1293,10 @@
     .ad_marketingblock_text h4{ font-size:32px;  line-height:40px; text-align:center; margin:20px 0 0 0;}
 
 }
+
+/*
+@media only screen and (min-width: 1800px) {
+    .ad_banner_bottom_text_wrapper .ad_blck2_textleft{
+        margin-top: 180px;
+    }
+}*/

@@ -1,12 +1,23 @@
 $( document ).ready(function() {
 
+
+    setTimeout(function () {
+        $('#bill_country').attr('disabled','disabled');
+
+    },6000);
+
+
+
+
     if($('#productformcon').length){
         setoffsetpos();
     }
 
+
     if($('#prelaunch_landing_page').length){
         $('.btnjoinnow').click(function(){
-            $("html, body").animate({ scrollTop: $('#prelaunch_landing_page').offset().top }, 1000);
+            //$("html, body").animate({ scrollTop: $('#prelaunch_landing_page').offset().top }, 1000);
+            $('html, body').animate({scrollTop:$('.toplogoblock ').offset().top}, 'slow');
             $('#prelaunch_landing_page').find('input[name="first_name"]').focus();
         })
     }
