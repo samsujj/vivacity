@@ -131,6 +131,15 @@
     }
 }
 
+
+@media only screen and (max-width: 1660px) {
+    .enrollmentblock8bgcontentrightcontent h3 {
+        font-size: 18px;
+    }
+
+}
+
+
 @media only screen and (max-width: 1600px) {
     .titlebar {
         width: 90%;
@@ -373,7 +382,7 @@
     }
     .enrollmentblock8bgcontentrightcontent h5 {
         font-size: 15px;
-        line-height: 20px !important;
+        line-height: 25px !important;
     }
 }
 
@@ -774,7 +783,7 @@
     .enrollmentblock8bgcontentrightcontent ul li {
         font-size: 20px;
         line-height: 26px;
-        margin-bottom: 20px;
+        margin-bottom: 20px;  list-style: none;
     }
     .enrollmentblock8bgcontentrightcontent h5 {
         font-size: 23px;
@@ -1300,3 +1309,11 @@
         margin-top: 180px;
     }
 }*/
+
+
+
+
+
+
+
+

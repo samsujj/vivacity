@@ -1,8 +1,10 @@
 $( document ).ready(function() {
 
 
+
+
     setTimeout(function () {
-        $('#bill_country').attr('disabled','disabled');
+        //$('#bill_country').attr('disabled','disabled');
 
     },6000);
 
@@ -138,9 +140,10 @@ function selProduct(pid,obj) {
     }
 
 
-    if(pid == 11){
-        var pcost = 99;
-        var shippingcost = shiparr[99];
+   // if(pid == 11){
+        var pcost2 = $(obj).attr('pprice');
+        var pcost = parseFloat(pcost2);
+        var shippingcost = shiparr[pcost2];
         shippingcost = parseFloat(shippingcost);
         var taxcost = 0;
 
@@ -160,13 +163,15 @@ function selProduct(pid,obj) {
         $('#landing_page_chk').find('#pcost').val(pcost);
         $('#landing_page_chk').find('#shippingcost').val(shippingcost);
         $('#landing_page_chk').find('#taxcost').val(taxcost);
-        $('#package_name').text('Balance Program');
+        $('#package_name').text($(obj).attr('ptitle'));
         $('#package_subtotal').text('$'+pcost);
         $('#package_shipping').text('$'+shippingcost);
         $('#package_tax').text('$'+taxcost);
         $('#package_total').text('$'+total);
-    }
-    if(pid == 12){
+  //  }
+
+
+   /* if(pid == 12){
         var pcost = 199;
         var shippingcost = shiparr[199];
         shippingcost = parseFloat(shippingcost);
@@ -193,7 +198,7 @@ function selProduct(pid,obj) {
         $('#package_shipping').text('$'+shippingcost);
         $('#package_tax').text('$'+taxcost);
         $('#package_total').text('$'+total);
-    }
+    }*/
 }
 
 

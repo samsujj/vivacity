@@ -354,6 +354,17 @@ $ship_arr = array();
 
 $price_arr = array(99,199);
 
+$price_arr = array();
+
+$p_res = db_query("SELECT `ps`.`price` FROM `product_stock_items` `ps`");
+
+while($p_res && $product = db_fetch_assoc($p_res)) {
+    $price_arr[] = $product['price'];
+}
+
+$price_arr = array_unique($price_arr);
+
+
 foreach ($price_arr as $val){
 
     $res = db_query("SELECT * FROM `shipping_by_price` WHERE `min` <".$val." && `max` >=".$val);
@@ -441,7 +452,7 @@ foreach ($price_arr as $val){
     <div class="form-group">
 
         <label for="bill_country">Country</label>
-        <?php $landing_page->draw_country_select('bill_'); ?>
+        <?php $landing_page->draw_country_select('bill_',array('United States')); ?>
     <div class="clearfix"></div>
    </div>
 
@@ -476,13 +487,13 @@ foreach ($price_arr as $val){
         <input name="email" type="text" id="email"  />
     <div class="clearfix"></div>
    </div>
-    <div class="form-group">
+   <!-- <div class="form-group">
         <label for="besttime">Best Time to Call</label>
         <select name="besttime" id="besttime">
-            <?php $landing_page->draw_besttime_options(); ?>
+            <?php //$landing_page->draw_besttime_options(); ?>
         </select>
     <div class="clearfix"></div>
-   </div>
+   </div>-->
     <h3 id="two" style="margin-top: 15px;">Pay with Credit or Debit Card</h3>
 
     <div class="form-group">
